@@ -8,10 +8,10 @@
 .card {
   z-index: 5;
   perspective: 2000px;
-  width: 100%;
+  width: 100vw;
   cursor: pointer;
   transform: rotate(-4deg);
-  aspect-ratio: 1.6 / 1;
+  aspect-ratio: 1.7 / 1;
 
   .card__container {
     width: 100%;
@@ -44,14 +44,14 @@
 
 //===========================================================
 
-@media (min-width: 360px) and (max-width: 1023px) {
+@media (min-width: 330px) and (max-width: 1023px) {
   .card {
     width: 100%;
   }
 }
 @media (min-width: 1024px) and (max-width: 1920px) {
   .card {
-    width: 85%;
+    width: 100%;
   }
 }
 
@@ -59,28 +59,28 @@
 
 @media (orientation: landscape) and (min-width: 666px) {
   .card {
-    width: 65%;
+    width: 60%;
     aspect-ratio: 1.8/1;
   }
 }
 
 @media (orientation: landscape) and (min-width: 882px) {
   .card {
-    width: 67%;
+    width: 60%;
     aspect-ratio: 1.8/1;
   }
 }
 
 @media (orientation: landscape) and (min-width: 1024px) {
   .card {
-    width: 80%;
+    width: 60%;
     aspect-ratio: 1.8/1;
   }
 }
 
 @media (orientation: landscape) and (min-width: 1280px) {
   .card {
-    width: 70%;
+    width: 60%;
     aspect-ratio: 1.8/1;
   }
 }
