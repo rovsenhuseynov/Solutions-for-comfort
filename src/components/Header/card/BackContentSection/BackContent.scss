@@ -12,10 +12,12 @@
 
   .back-content__text {
     text-align: center;
-    font-size: clamp(2.5vw, 3.5vw, 3vw,);
+
+    font-size: clamp(2vw, 2.5vw, 3vw,);
     @media (min-width: 667px) {
-      font-size: clamp(1vw, 2vw, 3vw);
+      font-size: clamp(1vw, 1.7vw, 2.5vw);
     }
+
     text-shadow: 1px 1px 10px black;
     text-wrap: balance;
   }
