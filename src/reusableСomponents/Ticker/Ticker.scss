@@ -1,0 +1,31 @@
+.ticker {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  z-index: 100;
+  margin-top: 2vh;
+  
+  &__wrapper {
+    display: inline-flex;
+    animation: scroll 30s linear infinite;
+    height: auto;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 0 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+    
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

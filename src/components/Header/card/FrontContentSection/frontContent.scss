@@ -1,0 +1,65 @@
+@import "../../../../assets/variables.scss";
+
+.front-content {
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .front-content__inner-container {
+    text-align: center;
+    height: 100%;
+    .front-content__text {
+      padding: 4%;
+      max-width: 100%;
+      height: 100%;
+
+      .front-content__text-title {
+        display: grid;
+        grid-template-rows: auto-fill;
+        height: 100%;
+
+        .text-title-2A {
+          font-size: clamp(2.5vw, 3.5vw, 3vw,);
+          @media (min-width: 667px) {
+            font-size: clamp(1vw, 2vw, 3vw);
+          }
+        }
+
+        .text-title-1 {
+          font-size: clamp(3vh, 5.7vw, 9vw);
+
+          @media (orientation: landscape) {
+            font-size: clamp(3.5vw, 4.5vw, 5.5vw);
+          }
+
+          font-family: SamsungSharp;
+          font-weight: 600;
+          align-self: end;
+          letter-spacing: 0.03em;
+          color: $lightНellow;
+          text-shadow: -3px -3px 5px rgba(0, 0, 0, 0.6); 
+          text-transform: uppercase;
+          line-height: 1em;
+          @media (260px <= width <= 900px) {
+            font-weight: 400;
+          }
+        }
+
+        .barcode-text-style {
+          .text-title-2 {
+            align-self: end;
+            font-family: Barcode_font;
+            font-size: $Barcode_font;
+            line-height: 1;
+          }
+        }
+      }
+
+      .front-content__text-title > :last-child {
+        align-self: end;
+      }
+    }
+  }
+}

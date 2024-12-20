@@ -1,0 +1,27 @@
+@import "../../assets/variables.scss";
+
+.header-nav__logo {
+  user-select: none;
+  display: flex;
+  align-items: top;
+  gap: 1vw;
+
+  cursor: pointer;
+  .header-nav__img {
+    width: calc(3vw + 1.5em);
+    height: calc(3vw + 1.5em);
+    transition: filter 0.2s ease;
+    &:hover{
+      filter: drop-shadow(0 0 10px black);
+    }
+  }
+
+  .header-nav__context {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-shadow: 0 0 5px black;
+    font-family: Artful_Beauty;
+    font-size: $font-size-h4;
+  }
+}

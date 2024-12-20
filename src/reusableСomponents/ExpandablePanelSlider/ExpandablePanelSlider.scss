@@ -1,0 +1,340 @@
+.expandable-panels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  overflow: hidden;
+  background-color: transparent;
+
+  .panels-wrapper {
+    display: flex;
+    width: 98vw;
+    border: 1px solid #afafaf;
+    padding-inline: 0.5vw;
+
+    .panel {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      flex: 1;
+      position: relative;
+      transition: flex 0.4s ease;
+      color: #fff;
+      cursor: pointer;
+      margin: 0.2vw;
+      text-wrap: balance;
+
+      @media (min-width: 320px) and (max-width: 768px) {
+        flex: 0.4;
+      }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        flex: 0.4;
+      }
+      @media (min-width: 1024px) and (max-width: 1280px) {
+        flex: 0.4;
+      }
+    }
+
+    .active {
+      flex: 1;
+
+      @media (width <= 1366px) {
+        flex: 3;
+      }
+      .expandable-panels-text {
+        opacity: 1;
+        transition: opacity 0.4s ease-in 0.4;
+        z-index: 1;
+        text-wrap: balance;
+      }
+    }
+
+    .expandable-panels-text {
+      font-family: "ImpactUnicode";
+      font-size: calc(1.6vh + 0.4em);
+      letter-spacing: 1.5px;
+      font-weight: 500;
+      position: absolute;
+      bottom: calc(2vh + 1rem);
+      left: calc(1vw + 0.3rem);
+      opacity: 0;
+      transform: translateY(10px); /* Начальная позиция ниже */
+      transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+      user-select: none;
+      z-index: -1;
+      text-transform: uppercase;
+      height: 2em; // Фиксированная высота текста
+      display: flex; // Выравнивание текста
+      align-items: center;
+      color: #000000;
+    }
+  }
+}
+
+// Код для регулирования количества и последовательности изображений
+@media (orientation: portrait) {
+  .expandable-panels .panels-wrapper {
+    .panel:nth-child(3),
+    .panel:nth-child(4),
+    .panel:nth-child(6) {
+      display: none;
+      height: auto;
+    }
+    .panel {
+      height: 100vw;
+    }
+  }
+}
+
+@media (orientation: landscape) {
+  .expandable-panels {
+    margin-block: calc(2vh + 1rem);
+  }
+
+  .expandable-panels .panels-wrapper {
+    height: 100vh;
+    .panel:nth-child(2) {
+      display: none;
+      height: 100vh;
+    }
+  }
+}
+
+// Код для правильного отображения изображения слайдов на различных экранах в положении - (orientation: landscape)
+
+@media (min-width: 320px) and (max-width: 413px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 1.15;
+    }
+  }
+}
+
+
+@media (min-width: 414px) and (max-width: 666px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 1.02;
+    }
+  }
+}
+
+@media (min-width: 667px) and (max-width: 719px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 1;
+    }
+  }
+}
+@media (width = 720px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 2;
+    }
+  }
+}
+
+@media (min-width: 721px) and (max-width: 767px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 0.9;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 844px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 0.8;
+    }
+  }
+}
+@media (min-width: 845px) and (max-width: 882px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 0.65;
+    }
+  }
+}
+
+@media (min-width: 883px) and (max-width: 914px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 0.8;
+    }
+  }
+}
+
+@media (min-width: 915px) and (max-width: 1023px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 0.8;
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1025px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 1.1;
+    }
+  }
+}
+
+@media (min-width: 1024px) and (height: 768px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 1.9;
+    }
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1180px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 1.1;
+    }
+  }
+}
+
+@media (min-width: 1180px) and (max-width: 1280px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 1.5;
+    }
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1400px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 3.7;
+    }
+  }
+}
+
+@media (1401px <= width) and (max-width: 1550px) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 4.2;
+    }
+  }
+}
+
+@media (1551px <= width) and (orientation: landscape) {
+  .expandable-panels .panels-wrapper {
+    width: 100vw;
+    .panel {
+      width: 100vw;
+      background-size: cover;
+    }
+
+    .active {
+      flex: 2.3;
+    }
+  }
+}
