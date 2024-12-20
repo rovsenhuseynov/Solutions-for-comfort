@@ -12,10 +12,9 @@
 
   .back-content__text {
     text-align: center;
-
-    font-size: clamp(2vw, 2.5vw, 3vw,);
+    font-size: clamp(1.7vw, 2.3vw, 2.7vw,);
     @media (min-width: 667px) {
-      font-size: clamp(1vw, 1.7vw, 2.5vw);
+      font-size: clamp(1vw, 1.6vw, 2.3vw);
     }
 
     text-shadow: 1px 1px 10px black;
@@ -27,7 +26,6 @@
     text-align: center;
     font-size: calc(.8vw + .6em);
     text-shadow: 1px 1px 10px black;
-    
   }
 
   /* Для экранов шириной до 770px */

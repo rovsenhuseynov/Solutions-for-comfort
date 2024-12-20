@@ -21,17 +21,17 @@
         height: 100%;
 
         .text-title-2A {
-          font-size: clamp(2vw, 2.5vw, 3vw,);
+          font-size: clamp(1.8vw, 2.3vw, 2.8vw);
           @media (min-width: 667px) {
-            font-size: clamp(1vw, 1.7vw, 2.5vw);
+            font-size: clamp(1vw, 1.6vw, 2.2vw);
           }
         }
 
         .text-title-1 {
-          font-size: clamp(3vh, 5.5vw, 8vw);
+          font-size: calc(3vw + 1rem);
 
           @media (orientation: landscape) {
-            font-size: clamp(3vw, 3.7vw, 5vw);
+            font-size: calc(2.4vw + 1rem);
           }
 
           font-family: SamsungSharp;
@@ -39,7 +39,7 @@
           align-self: end;
           letter-spacing: 0.03em;
           color: $lightНellow;
-          text-shadow: -3px -3px 5px rgba(0, 0, 0, 0.6); 
+          text-shadow: -3px -3px 5px rgba(0, 0, 0, 0.6);
           text-transform: uppercase;
           line-height: 1em;
           @media (260px <= width <= 900px) {
