@@ -21,9 +21,9 @@
       font-size: calc(2.5vw + 1.5em);
 
       @media (width <= 768px) {
-        font-size: calc(3vw + 0.7em);
+        font-size: calc(2vw + 0.6em);
       }
-      
+
       @media (orientation: landscape) {
         width: 85%;
         font-size: calc(1vw + 0.5rem);
@@ -45,7 +45,7 @@
   }
 
   .expandable-panels__links {
-    margin-block: calc(1vh + .5em);
+    margin-block: calc(1vh + 0.5em);
     .category-links {
       display: flex;
       justify-content: center;
