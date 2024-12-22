@@ -12,8 +12,7 @@ const ExpandablePanel = () => {
         </p>
 
         <h2 className="expandable-panels__title">
-          Slayderdə göstərilən məmulatları "Məhsullar" səhifəsində tapa
-          bilərsiniz.
+        Slayderdə göstərilən məmulatları və digər məhsulları "Məhsullar" səhifəsində tapa bilərsiniz
         </h2>
       </div>
 
