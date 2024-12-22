@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  height: 100vh;
+  height: 95vh !important;
   width: 100%;
   aspect-ratio: 2.0571 / 1;
   margin-top: calc(3vh + 2em);
@@ -24,15 +24,22 @@
 
   .card-wrapper {
     display: grid;
-    align-items: center;
+    align-content: center;
+    align-items: end;
     margin-inline: 5vw;
     width: 70%;
     height: 100%;
 
     @media (width <= 768px) {
       width: 80%;
-      height: 100%;
+      height: 70%;
     }
+    @media (orientation: landscape) {
+      width: 60%;
+      height: 70%;
+      align-content: end;
+    }
+
   }
 
   .custom-ticker {
