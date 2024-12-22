@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  height: 95vh !important;
+  height: 100vh !important;
   width: 100%;
   aspect-ratio: 2.0571 / 1;
   margin-top: calc(3vh + 2em);
@@ -19,7 +19,7 @@
   }
 
   @media (orientation: landscape) {
-    height: 95vh;
+    height: 100vh;
   }
 
   .card-wrapper {
@@ -27,7 +27,7 @@
     align-content: center;
     align-items: end;
     margin-inline: 5vw;
-    width: 70%;
+    width: 90%;
     height: 100%;
 
     @media (width <= 768px) {
@@ -35,9 +35,9 @@
       height: 70%;
     }
     @media (orientation: landscape) {
-      width: 80%;
-      height: 70%;
-      align-content: end;
+      max-width: 70%;
+      height: 100%;
+      align-content: center;
     }
 
   }
