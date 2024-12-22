@@ -75,9 +75,9 @@
 // Код для регулирования количества и последовательности изображений
 @media (orientation: portrait) {
   .expandable-panels .panels-wrapper {
-    .panel:nth-child(3),
+    .panel:nth-child(2),
     .panel:nth-child(4),
-    .panel:nth-child(6) {
+    .panel:nth-child(5) {
       display: none;
       height: auto;
     }
