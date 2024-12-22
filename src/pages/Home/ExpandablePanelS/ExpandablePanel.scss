@@ -5,7 +5,8 @@
     display: grid;
     justify-content: center;
     gap: 2.5vh;
-    margin-top: calc(2vh + 2em);
+    margin-block: calc(2vh + 1em);
+    margin-inline: calc(2vh + 1em);
 
     .expandable-panels__tagline {
       @include heading-styles;
@@ -18,7 +19,6 @@
       text-align: center;
       text-wrap: balance;
       line-height: 1.1;
-      font-size: calc(2.5vw + 1.5em);
 
       @media (width <= 768px) {
         font-size: calc(2vw + 0.6em);
