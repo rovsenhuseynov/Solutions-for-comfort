@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  height: 100vh !important;
+  height: 100vh;
   width: 100%;
   aspect-ratio: 2.0571 / 1;
   margin-top: calc(3vh + 2em);
@@ -35,7 +35,7 @@
       height: 70%;
     }
     @media (orientation: landscape) {
-      max-width: 70%;
+      width: 65%;
       height: 100%;
       align-content: center;
     }
