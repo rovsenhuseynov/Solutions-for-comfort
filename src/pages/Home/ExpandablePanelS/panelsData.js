@@ -4,6 +4,7 @@ import ImageSliderPanel_3 from "../../../assets/img/main_banner_bg/metal_soba_3.
 import ImageSliderPanel_4 from "../../../assets/img/main_banner_bg/expandable_panels_4.webp";
 import ImageSliderPanel_5 from "../../../assets/img/main_banner_bg/expandable_panels_5.webp";
 import ImageSliderPanel_6 from "../../../assets/img/main_banner_bg/Wooden_press_6.webp";
+import ImageSliderPanel_7 from "../../../assets/img/main_banner_bg/Wooden_press_7.webp";
 
 const panelsData = [
   {
@@ -29,6 +30,10 @@ const panelsData = [
   {
     title: "Taxta pres",
     imageUrl: ImageSliderPanel_6,
+  },
+  {
+    title: "Tərtibatlı taxta təqvim",
+    imageUrl: ImageSliderPanel_7,
   },
 ];
 

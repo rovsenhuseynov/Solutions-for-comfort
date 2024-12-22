@@ -75,9 +75,10 @@
 // Код для регулирования количества и последовательности изображений
 @media (orientation: portrait) {
   .expandable-panels .panels-wrapper {
+    .panel:nth-child(1),
     .panel:nth-child(2),
-    .panel:nth-child(4),
-    .panel:nth-child(5) {
+    .panel:nth-child(3),
+    .panel:nth-child(4) {
       display: none;
       height: auto;
     }
@@ -90,6 +91,10 @@
 @media (orientation: landscape) {
   .expandable-panels {
     margin-block: calc(2vh + 1rem);
+    .panel:nth-child(1),
+    .panel:nth-child(2) {
+      display: none;
+    }
   }
 
   .expandable-panels .panels-wrapper {
@@ -118,7 +123,6 @@
   }
 }
 
-
 @media (min-width: 414px) and (max-width: 666px) and (orientation: landscape) {
   .expandable-panels .panels-wrapper {
     width: 100vw;
@@ -137,26 +141,23 @@
 @media (min-width: 667px) and (max-width: 719px) and (orientation: landscape) {
   .expandable-panels .panels-wrapper {
     width: 100vw;
-
     .panel {
       width: 100vw;
       background-size: cover;
     }
-
     .active {
-      flex: 1;
+      flex: 1.2;
     }
   }
 }
+
 @media (width = 720px) and (orientation: landscape) {
   .expandable-panels .panels-wrapper {
     width: 100vw;
-
     .panel {
       width: 100vw;
       background-size: cover;
     }
-
     .active {
       flex: 2;
     }
