@@ -50,11 +50,12 @@
       }
     }
 
+
     .expandable-panels-text {
-      font-family: "ImpactUnicode";
-      font-size: calc(1.6vh + 0.4em);
+      font-family: "samsungsharpsansS";
+      font-size: calc(1vw + 0.6em);
       letter-spacing: 1.5px;
-      font-weight: 500;
+      font-weight: 600;
       position: absolute;
       bottom: calc(2vh + 1rem);
       left: calc(1vw + 0.3rem);
@@ -67,6 +68,9 @@
       height: 2em; // Фиксированная высота текста
       display: flex; // Выравнивание текста
       align-items: center;
+      color: #000000;
+    }
+    .expandable-panels-description{
       color: #000000;
     }
   }
