@@ -7,6 +7,15 @@
   width: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
   z-index: 9999999;
+  transition: transform 0.3s ease; /* Плавный переход для движения вверх/вниз */
+
+  &.hidden {
+    transform: translateY(-100%); /* Скрытие блока, при прокрутке вниз */
+  }
+
+  &.visible {
+    transform: translateY(0); /* Возвращение блока на место */
+  }
 
   .promo-banner__block {
     display: flex;
@@ -26,7 +35,7 @@
       color: #ffffff;
       font-size: $p-text;
       text-align: center;
-      text-shadow: #0e2016;
+      text-shadow: 0 0 4px #0e2016;
     }
 
     .vertical-bar {
