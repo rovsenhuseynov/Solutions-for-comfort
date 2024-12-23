@@ -1,3 +1,22 @@
-.footer{
-    color: #000;
+.footer__wrapper {
+  padding-block: calc(2vh + 1rem);
+  height: 25vh;
+  background-color: rgb(37, 37, 37);
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .footer__top {
+    margin-bottom: calc(3vh + 1rem);
+    .footer__top-logo {
+    }
+  }
+
+  .footer__copyright {
+    color: white;
+    display: grid;
+    place-content: center;
+    .footer__copyright-text {
+    }
+  }
 }

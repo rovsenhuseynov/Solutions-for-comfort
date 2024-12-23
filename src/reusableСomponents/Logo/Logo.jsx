@@ -5,7 +5,7 @@ import "./logo_mixin.scss";
 
 function Logo() {
   return (
-    <div className="logo">
+    <div className="logo footer__logo">
       <NavLink to="/">
         <div className="header-nav__logo">
           <img src={logo_img} alt="logo" className="header-nav__img" />
