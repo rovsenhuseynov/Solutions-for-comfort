@@ -29,3 +29,13 @@ p {
   font-size: inherit;
   font-weight: inherit;
 }
+
+
+@media (pointer: coarse) {
+  body {
+    -webkit-touch-callout: none; /* Отключает вызов контекстного меню */
+    -webkit-user-select: none;  /* Запрещает выделение текста */
+    user-select: none;          /* Для всех браузеров */
+    touch-action: manipulation; /* Отключает ненужные жесты */
+  }
+}
