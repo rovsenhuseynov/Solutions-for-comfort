@@ -57,6 +57,7 @@ const HeaderNav = () => {
       <div className="header-nav__content">
         <Logo />
         <nav className={`header__nav ${isOpen ? "active" : ""}`}>
+          
           <div className="header__nav-list">
             {navLinks.map(({ to, text }) =>
               to === "/services" ? (
@@ -82,6 +83,7 @@ const HeaderNav = () => {
               )
             )}
           </div>
+          
         </nav>
         <button
           className={`header__menu-btn ${isOpen ? "active" : ""}`}
@@ -113,3 +115,6 @@ const HeaderNav = () => {
 };
 
 export default HeaderNav;
+
+
+

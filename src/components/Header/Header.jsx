@@ -6,8 +6,6 @@ import Card from "./card/Card";
 import Ticker from "../../reusableСomponents/Ticker/Ticker";
 
 const Header = () => {
-
-  
   const customItems = [
     "Sifariş ",
     "əsasında ",
@@ -18,11 +16,11 @@ const Header = () => {
     "ideyadan",
     "quraşdırmaya",
     "qədər.",
-    "Əlaqə nömrəmiz", 
+    "Əlaqə nömrəmiz",
     ":",
     "050-640 67 01",
     " / ",
-    "  "
+    "  ",
   ];
 
   return (
