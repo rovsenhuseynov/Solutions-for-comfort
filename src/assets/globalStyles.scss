@@ -57,3 +57,12 @@ p {
     user-select: none;
   }
 }
+
+
+@media (pointer: coarse) {
+  a {
+    -webkit-touch-callout: none; /* Отключаем контекстное меню */
+    user-select: none; /* Запрещаем выделение текста */
+    touch-action: manipulation; /* Запрещаем прокрутку и масштабирование */
+  }
+}
