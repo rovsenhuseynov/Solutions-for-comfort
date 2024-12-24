@@ -39,3 +39,21 @@ p {
     touch-action: manipulation; /* Отключает ненужные жесты */
   }
 }
+
+
+
+@media (pointer: coarse) {
+  body {
+    -webkit-touch-callout: none;
+    user-select: none;
+    touch-action: manipulation;
+  }
+}
+
+
+@media (pointer: coarse) {
+  .disable-touch-menu {
+    -webkit-touch-callout: none;
+    user-select: none;
+  }
+}
