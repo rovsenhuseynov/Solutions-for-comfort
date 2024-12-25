@@ -51,7 +51,7 @@
 
       &.active {
         color: $activeStateColor;
-        margin-left: clamp(10px, 1.5vw, 25px);
+        margin-right: clamp(10px, 1.5vw, 25px); //!
       }
     }
     .nav-list__links {
