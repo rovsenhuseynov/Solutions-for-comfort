@@ -3,13 +3,13 @@
 .footer__wrapper {
   padding-block: calc(2vh + 2rem);
   padding-inline: 5vw;
-  max-height: 60vh;
+  max-height: 70vh;
   background-color: rgb(37, 37, 37);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: calc(.6vw + .3rem);
- 
+  font-size: calc(0.6vw + 0.3rem);
+
   .footer__top {
     display: flex;
     align-items: start;
@@ -30,6 +30,37 @@
     .footer__top-contact {
       color: $white;
       margin-left: 1vw;
+
+      .footer__top-tel-img_block,
+      .footer__top-WhatsApp-img_block,
+      .footer__top-externalLinks-img_block {
+        display: flex;
+        align-items: center;
+        gap: 1.5vw;
+        margin-bottom: 1.5vh;
+        .footer__top-tel-img,
+        .footer__top-WhatsApp-img,
+        .footer__top-externalLinks-img {
+          width: calc(1vw + 0.8rem);
+        }
+      }
+      .footer__top-WhatsApp-num,
+      .footer__top-tel-num,
+      .footer__top-externalLinks-num {
+        font-size: $font-size-h5;
+      }
+    }
+
+    @media (width <= 344px) and (orientation: portrait) {
+      .footer__top-contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4vw;
+        .footer__top-tel-img_block,
+        .footer__top-WhatsApp-img_block,
+        .footer__top-externalLinks-img_block {
+          margin-bottom: 0;
+      }}
     }
   }
 
