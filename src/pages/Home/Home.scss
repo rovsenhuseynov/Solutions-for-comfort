@@ -1,7 +1,6 @@
 .divider-line {
   position: relative;
   background-color: rgb(255, 255, 255);
-  overflow-x: hidden;
   &::after {
     content: "";
     position: absolute;
