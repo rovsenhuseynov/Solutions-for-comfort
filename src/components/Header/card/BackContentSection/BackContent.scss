@@ -12,19 +12,24 @@
 
   .back-content__text {
     text-align: center;
-    font-size: clamp(1.7vw, 2.3vw, 2.7vw,);
-    @media (min-width: 667px) {
-      font-size: clamp(1vw, 1.6vw, 2.3vw);
-    }
-
+    font-size: clamp(1.7vw, 2.5vw, 2.7vw);
     text-shadow: 1px 1px 10px black;
     text-wrap: balance;
+
+    .card-tel {
+      margin-top: 5vw;
+    }
+
+    @media (min-width: 667px) {
+      font-size: clamp(1.6vw, 1.8vw, 2.2vw);
+      line-height: 1.4;
+    }
   }
 
   /* Этот текст заменяет на карточке собой "back-content__text" на экранах  шириной менее 770px */
   .small-text {
     text-align: center;
-    font-size: calc(.8vw + .6em);
+    font-size: calc(0.8vw + 0.6em);
     text-shadow: 1px 1px 10px black;
   }
 
@@ -52,5 +57,4 @@
     font-size: $font-size-h6;
     color: $lightНellow;
   }
-
 }
