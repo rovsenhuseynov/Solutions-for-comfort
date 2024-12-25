@@ -22,6 +22,7 @@
     &.active {
       color: rgb(238, 150, 72);
       transform: translateY(-10px);
+
       @media (max-width: 1024px) and (orientation: landscape) {
         transform: translateY(0px);
         transform: translateX(10px);
@@ -50,7 +51,7 @@
 
       &.active {
         color: $activeStateColor;
-        
+        margin-left: clamp(10px, 1.5vw, 25px);
       }
     }
     .nav-list__links {
