@@ -1,26 +1,30 @@
 @import "../../../assets/variables.scss";
 
-.expandable-panels {
-  margin-bottom: calc(2vh + 1em);
-  .expandable-panels__intro {
+.expandablePanel {
+  background-color: rgb(37,37,37);
+  padding-top: calc(3vh + 1rem);
+  overflow-x: hidden;
+  .expandablePanel__intro {
     display: grid;
     justify-content: center;
     gap: 2.5vh;
-    margin-block: calc(2vh + 1em);
     margin-inline: calc(2vh + 1em);
-
-    .expandable-panels__tagline {
+    margin-bottom: calc(1vh + .5em);
+    color: #fff;
+   
+   
+    .expandablePanel__tagline {
       @include heading-styles;
       text-align: center;
     }
 
-    .expandable-panels__title {
-      font-size: calc(2vw + 1em);
+    .expandablePanel__title {
+      font-size: calc(2vw + .6em);
       font-family: SamsungSharp;
       text-align: center;
       text-wrap: balance;
       line-height: 1.1;
-
+      text-shadow: 0 0 5px black;
       @media (width <= 768px) {
         font-size: calc(2vw + 0.6em);
       }
@@ -32,21 +36,23 @@
         display: grid;
         place-self: center;
         text-wrap: balance;
-        line-height: 1.1;
+        line-height: 1.4;
+        letter-spacing: 2px;
         text-transform: uppercase;
       }
     }
   }
 
-  .expandable-panels__wrapper {
-    margin-block: 1vh;
+  .expandablePanel__wrapper {
+    // margin-block: 1vh;
+
     @media (width <= 768px) {
       margin-block: 0;
     }
   }
 
-  .expandable-panels__links {
-    margin-block: calc(1vh + 0.5em);
+  .expandablePanel__links {
+    padding: calc(2vh + 1em) 0 calc(2vh + 2em);
     .category-links {
       display: flex;
       justify-content: center;

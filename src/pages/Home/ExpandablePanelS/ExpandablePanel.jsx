@@ -5,22 +5,22 @@ import ExpandablePanelSlider from "../../../reusableСomponents/ExpandablePanelS
 
 const ExpandablePanel = () => {
   return (
-    <section className="expandable-panels">
-      <div className="expandable-panels__intro">
-        <p className="expandable-panels__tagline">
+    <section className="expandablePanel">
+      <div className="expandablePanel__intro">
+        <p className="expandablePanel__tagline">
           Məmulatlar haqqında ətraflı
         </p>
 
-        <h2 className="expandable-panels__title">
+        <h2 className="expandablePanel__title">
         Slayderdə göstərilən məmulatları və digər məhsulları "Məhsullar" səhifəsində tapa bilərsiniz
         </h2>
       </div>
 
-      <div className="expandable-panels__wrapper">  
+      <div className="expandablePanel__wrapper">  
         <ExpandablePanelSlider />
       </div>
 
-      <div className="expandable-panels__links">
+      <div className="expandablePanel__links">
         <ul className="category-links">
           <li className="category-link-item">
             <NavLink to="/ourTeam">Tops</NavLink>

@@ -1,0 +1,19 @@
+.divider-line {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    height: 1px;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(192, 192, 192, 0.8) 0%,
+      rgba(255, 255, 255, 0.1) 70%
+    );
+  }
+}
