@@ -10,6 +10,7 @@ import SearchPage from "./pages/SearchPage/SearchPage";
 import OurServices from "./pages/OurServices/OurServices";
 import Products from "./pages/Products/Products";
 import Journal from "./pages/Journal/Journal";
+import Provisions from "./pages/Provisions/Provisions";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/services" element={<OurServices />} />
+          <Route path="/provisions" element={<Provisions />} />
           <Route path="/products" element={<Products />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/journal" element={<Journal />} />

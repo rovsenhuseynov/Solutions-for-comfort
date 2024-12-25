@@ -6,7 +6,7 @@ import "./NavList.scss"
 const NavList = ({ onClose }) => {
   const navLinks = [
     { to: "/", text: "ƏSAS" },
-    { to: "/services", text: "XIDMƏTLƏR" },
+    { to: "/provisions", text: "XIDMƏTLƏR" },
     { to: "/products", text: "MƏHSULLAR" },
     { to: "/faq", text: "FAQ" },
     { to: "/journal", text: "JOURNAL" },

@@ -19,6 +19,7 @@
     transition: color 0.2s ease;
     &.active {
       color: rgb(238, 150, 72);
+      text-shadow: 0 0 5px black;
     }
     &:hover {
       color: $activeStateColor;
@@ -26,6 +27,7 @@
 
     .header__nav-item-link {
       color: $white;
+
       &.active {
         color: $activeStateColor;
       }

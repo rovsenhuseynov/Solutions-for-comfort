@@ -38,7 +38,6 @@ const Footer = () => {
             <p className="footer__top-WhatsApp-num"> 050 6406701</p>
           </div>
 
-
           <div className="footer__top-externalLinks-img_block">
             <img
               className="footer__top-externalLinks-img"
@@ -47,8 +46,6 @@ const Footer = () => {
             />
             <p className="footer__top-externalLinks-num">solutions-for-comfort.vercel.app</p>
           </div>
-
-
 
         </div>
       </div>
