@@ -1,9 +1,9 @@
 import React from "react";
 import "./Products.scss";
-import Screws_1 from "../../assets/img/screws/Screws_1.webp";
-import Screws_2 from "../../assets/img/screws/Screws_2.webp";
-import Screws_3 from "../../assets/img/screws/Screws_3.webp";
-import Screws_4 from "../../assets/img/screws/Screws_4.webp";
+import Screws_1 from "../../assets/img/products_img/Screws_1.webp";
+import Screws_2 from "../../assets/img/products_img/Screws_2.webp";
+import Screws_3 from "../../assets/img/products_img/Screws_3.webp";
+import Screws_4 from "../../assets/img/products_img/Screws_4.webp";
 
 const Products = () => {
   return (
