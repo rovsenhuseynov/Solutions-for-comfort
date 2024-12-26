@@ -12,6 +12,7 @@
   cursor: pointer;
   transform: rotate(-4deg);
   aspect-ratio: 1.7 / 1;
+ 
 
   .card__container {
     width: 100%;
@@ -70,8 +71,6 @@
     aspect-ratio: 1.85/1;
   }
 }
-
-
 
 @media (orientation: landscape) and (min-width: 882px) {
   .card {
