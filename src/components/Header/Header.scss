@@ -7,19 +7,22 @@
   width: 100%;
   aspect-ratio: 2.0571 / 1;
   position: relative;
-
+  overflow-x: hidden;
+  
   @media (max-width: 768px) {
     aspect-ratio: 2.0571 / 2.6;
+    
   }
 
   @media (width <= 1024px) {
     aspect-ratio: 1 / 1.2;
     background-position: center right;
-    overflow-x: hidden;
+    
   }
 
   @media (orientation: landscape) {
     height: 100vh;
+   
   }
 
   .card-wrapper {
@@ -29,7 +32,7 @@
     margin-inline: 5vw;
     width: 95%;
     height: 100%;
-
+    overflow-x: hidden;
     @media (width <= 1280px) {
       height: 80%; //удачная поправка
     }
@@ -42,6 +45,7 @@
       width: 55%;
       height: 100%;
       align-content: center;
+      
     }
   }
 
@@ -58,5 +62,6 @@
     box-shadow: none;
     background-color: transparent;
     text-shadow: -3px -3px 5px rgba(0, 0, 0, 0.4);
+    
   }
 }

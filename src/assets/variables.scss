@@ -7,13 +7,11 @@ $font-size-h4: calc(0.9vw + 1.6em);
 $font-size-h5: calc(0.6vw + 1.3em);
 $font-size-h6: calc(0.3vw + 1em);
 
+// Barcode font size
+$Barcode_font: calc(3vw + 1.5em);
+
 // Шрифт для титульного названия ====
-
-
-
 // $font-for-card-title: clamp(3.5vh, 4vh, 3vh);
-
-
 
 // ====================================
 $p-text: calc(0.6vw + 0.6em);
@@ -21,17 +19,12 @@ $p-fz: calc(0.2vw + 0.6em);
 
 // Переменные цветов =========
 
-$swampColor: rgb(1,161,217);
-$backgroundColor: #f5f5f5;
-$backgroundColors: #494848;
-$activeStateColor: rgb(255,127,80);
-$lightНellow: rgb(255,127,80);
+$swampColor: rgb(1, 161, 217);
+$background-color: rgb(206, 238, 243);
+$activeStateColor: rgb(255, 127, 80);
+$lightНellow: rgb(255, 127, 80);
 $white: #fff;
 $black: #000;
-
-// Barcode font size
-
-$Barcode_font: calc(3vw + 1.5em);
 
 // Mixins
 @mixin heading-styles {

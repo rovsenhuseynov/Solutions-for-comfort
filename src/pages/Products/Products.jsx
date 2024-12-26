@@ -1,14 +1,14 @@
 import React from "react";
 import "./Products.scss";
-import Screws_1 from "../../assets/img/screws/Screws_1.webp"
-import Screws_2 from "../../assets/img/screws/Screws_2.webp"
-import Screws_3 from "../../assets/img/screws/Screws_3.webp"
-import Screws_4 from "../../assets/img/screws/Screws_4.webp"
+import Screws_1 from "../../assets/img/screws/Screws_1.webp";
+import Screws_2 from "../../assets/img/screws/Screws_2.webp";
+import Screws_3 from "../../assets/img/screws/Screws_3.webp";
+import Screws_4 from "../../assets/img/screws/Screws_4.webp";
 
 const Products = () => {
   return (
-    <section className="products">
-      <div className="product__title">
+    <div className="sections-products__container">
+      <section className="product__title">
         <div className="product__title-top">
           <img className="product__title-img1" src={Screws_1} alt="Screws" />
           <img className="product__title-img1" src={Screws_2} alt="Screws" />
@@ -20,10 +20,14 @@ const Products = () => {
           <img className="product__title-img2" src={Screws_3} alt="Screws" />
           <img className="product__title-img2" src={Screws_4} alt="Screws" />
         </div>
-      </div>
-    </section>
-    
+      </section>
 
+      <section className="product__list container">
+        <article className="drying-rack">Paltarqurutma stendi</article>
+        <article className="wood-calendar">Tərtibatlı taxta təqvim</article>
+        <article className="wood-press">Taxta press</article>
+      </section>
+    </div>
   );
 };
 
