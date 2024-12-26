@@ -16,8 +16,9 @@
         background-image: url(../../assets/img/products_img/products_img.webp);
         background-clip: text;
         background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+       
+        background-size: contain;
+         background-repeat: repeat;
         color: transparent;
         font-size: calc(5vw + 2rem);
         font-weight: 900;
@@ -28,6 +29,7 @@
         text-align: center;
       }
     }
+
     .product__title-img2,
     .product__title-img1 {
       width: calc(4vw + 2rem);
