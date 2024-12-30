@@ -40,7 +40,8 @@
     }
   }
   .product__list {
-    display: flex;
+    display: grid;
+    place-items: center;
     flex-direction: column;
     gap: calc(3vh + 2rem);
     margin-block: calc(2vh + 2rem);

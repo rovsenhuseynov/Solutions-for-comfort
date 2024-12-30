@@ -1,39 +1,57 @@
-// import React from 'react';
-// import './DryingRack.scss';
+// import React, { useState } from "react";
+// import sliderData from "./SliderData";
+// import "./DryingRack.scss";
 
 // const DryingRack = () => {
+//   const [activeSlide, setActiveSlide] = useState(1);
+
+//   const handleNext = (current) => {
+//     setActiveSlide(current === sliderData.length ? 1 : current + 1);
+//   };
+
+//   const handlePrev = (current) => {
+//     setActiveSlide(current === 1 ? sliderData.length : current - 1);
+//   };
+
+//   const handleDotClick = (index) => {
+//     setActiveSlide(index + 1);
+//   };
+
 //   return (
-//     <div className="slider">
-//       <input type="radio" id="slide1" name="slide" defaultChecked />
-//       <input type="radio" id="slide2" name="slide" />
-//       <input type="radio" id="slide3" name="slide" />
-//       <input type="radio" id="slide4" name="slide" />
-//       <ul>
-//         <li>
-//           <img
-//             src="http://www.dessko.com/assets/images/116/116_size_400x300_wallpaper-25331.jpg?1265653882"
-//             alt="Slide 1"
-//           />
-//         </li>
-//         <li>
-//           <img
-//             src="http://www.widescreenwalls.com/wp-content/uploads/2011/09/Beautiful-Landscape-400x300.jpg"
-//             alt="Slide 2"
-//           />
-//         </li>
-//         <li>
-//           <img
-//             src="http://www.photofurl.com/wp-content/uploads/2010/04/blue-water-beach-wallpaper-400x300.jpg"
-//             alt="Slide 3"
-//           />
-//         </li>
-//         <li>
-//           <img
-//             src="http://www.widescreenwalls.com/wp-content/uploads/2011/10/Winter_Landscape-400x300.jpg"
-//             alt="Slide 4"
-//           />
-//         </li>
-//       </ul>
+//     <div className="containers">
+//       {sliderData.map((slide, index) => (
+//         <input
+//           key={`input-${index}`}
+//           type="radio"
+//           id={`i${index + 1}`}
+//           name="images"
+//           checked={activeSlide === index + 1}
+//           readOnly
+//         />
+//       ))}
+
+//       {sliderData.map((slide, index) => (
+//         <div className="slide_img" id={slide.id} key={slide.id}>
+//           <img src={slide.src} alt={slide.alt} />
+//           <label className="prev" onClick={() => handlePrev(activeSlide)}>
+//             <span>&#x2039;</span>
+//           </label>
+//           <label className="next" onClick={() => handleNext(activeSlide)}>
+//             <span>&#x203a;</span>
+//           </label>
+//         </div>
+//       ))}
+
+//       <div id="nav_slide">
+//         {sliderData.map((_, index) => (
+//           <label
+//             key={`dot-${index}`}
+//             className="dots"
+//             id={`dot${index + 1}`}
+//             onClick={() => handleDotClick(index)}
+//           ></label>
+//         ))}
+//       </div>
 //     </div>
 //   );
 // };
@@ -43,24 +61,68 @@
 
 
 
-import React from 'react';
-import './DryingRack.scss';
-import sliderImages from './SliderData'; // Импорт массива изображений
+
+import React, { useState } from "react";
+import sliderData from "./SliderData";
+import "./DryingRack.scss";
 
 const DryingRack = () => {
+  const [activeSlide, setActiveSlide] = useState(1);
+
+  const handleNext = (current) => {
+    setActiveSlide(current === sliderData.length ? 1 : current + 1);
+  };
+
+  const handlePrev = (current) => {
+    setActiveSlide(current === 1 ? sliderData.length : current - 1);
+  };
+
+  const handleDotClick = (index) => {
+    setActiveSlide(index + 1);
+  };
+
   return (
-    <div className="slider">
-      <input type="radio" id="slide1" name="slide" defaultChecked />
-      <input type="radio" id="slide2" name="slide" />
-      <input type="radio" id="slide3" name="slide" />
-      <input type="radio" id="slide4" name="slide" />
-      <ul>
-        {sliderImages.map((image, index) => (
-          <li key={index}>
-            <img src={image.src} alt={image.alt} />
-          </li>
+    <div className="containers">
+      {sliderData.map((slide, index) => (
+        
+        <input
+          key={`input-${index}`}
+          type="radio"
+          id={`i${index + 1}`}
+          name="images"
+          checked={activeSlide === index + 1}
+          readOnly
+        />
+      ))}
+
+
+      {sliderData.map((slide, index) => (
+        <div
+          className={`slide_img ${activeSlide === index + 1 ? "active" : ""}`}
+          id={slide.id}
+          key={slide.id}
+        >
+          <img src={slide.src} alt={slide.alt} />
+          <div className="slide_context">{activeSlide === index + 1 && slide.context}</div>
+          <label className="prev" onClick={() => handlePrev(activeSlide)}>
+            <span>&#x2039;</span>
+          </label>
+          <label className="next" onClick={() => handleNext(activeSlide)}>
+            <span>&#x203a;</span>
+          </label>
+        </div>
+      ))}
+
+      <div id="nav_slide">
+        {sliderData.map((_, index) => (
+          <label
+            key={`dot-${index}`}
+            className="dots"
+            id={`dot${index + 1}`}
+            onClick={() => handleDotClick(index)}
+          ></label>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

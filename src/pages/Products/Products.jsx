@@ -8,6 +8,7 @@ import Screws_4 from "../../assets/img/products_img/Screws_4.webp";
 import WoodCalendar from "./WoodCalendar/WoodCalendar";
 import WoodPress from "./WoodPress/WoodPress";
 import DryingRack from "./DryingRack/DryingRack";
+import sliderImages from "./DryingRack/SliderData";
 
 const Products = () => {
   return (
@@ -27,7 +28,7 @@ const Products = () => {
       </section>
 
       <section className="product__list container">
-        <DryingRack />
+        <DryingRack sliderImages={sliderImages} />
         <WoodCalendar />
         <WoodPress />
       </section>
