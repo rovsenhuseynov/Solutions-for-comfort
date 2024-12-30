@@ -118,6 +118,8 @@ label span {
   cursor: default;
 }
 
+//-----------------------------------------
+
 #nav_slide .dots {
   top: -5px;
   width: calc(1vh + 0.5rem);
@@ -158,6 +160,8 @@ label span {
     text-align: center;
   }
 }
+//-------------------------------------------------
+
 
 #i1:checked ~ #one,
 #i2:checked ~ #two,
@@ -176,15 +180,31 @@ label span {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-@keyframes scroll {
-  0% {
-    opacity: 0.4;
+//--------------------------------
+
+.containers {
+  @keyframes containers-scroll {
+    0% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-  100% {
-    opacity: 1;
+
+  /* Применение анимации только для нужных элементов внутри .containers */
+  #i1:checked ~ #one,
+  #i2:checked ~ #two,
+  #i3:checked ~ #three,
+  #i4:checked ~ #four,
+  #i5:checked ~ #five {
+    z-index: 9;
+    animation: containers-scroll 1s ease-in-out;
   }
 }
 
+
+//--------------------------------------------
 @media screen and (max-width: 685px) {
   .container {
     border: none;
@@ -211,3 +231,4 @@ label span {
     display: none;
   }
 }
+
