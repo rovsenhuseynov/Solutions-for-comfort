@@ -6,8 +6,8 @@
   background-color: $background-color;
 
   .product__title {
-    padding: 1vw;
-    margin-bottom: calc(4vh + 2rem);
+    padding-inline: 1vw;
+    margin-bottom: calc(2vh + 1rem);
     .product__title-bottom,
     .product__title-top {
       display: flex;
@@ -43,7 +43,7 @@
     display: grid;
     place-items: center;
     flex-direction: column;
-    gap: calc(3vh + 2rem);
+    gap: calc(2.5vw + 1rem);
     margin-block: calc(2vh + 2rem);
 
   }
