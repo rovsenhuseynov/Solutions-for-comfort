@@ -4,7 +4,7 @@
   position: relative;
   width: 100%;
   z-index: 100;
-  margin-top: 1px;
+  box-shadow: 5px 5px 20px black;
   
   &__wrapper {
     display: inline-flex;
