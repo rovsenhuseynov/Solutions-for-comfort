@@ -10,6 +10,7 @@ import SearchPage from "./pages/SearchPage/SearchPage";
 import Products from "./pages/Products/Products";
 import Journal from "./pages/Journal/Journal";
 import Provisions from "./pages/Provisions/Provisions";
+import DryingRack from "./pages/Products/DryingRack/DryingRack";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/journal" element={<Journal />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/search" element={<SearchPage />} />
+          <Route path="/drying-rack" element={<DryingRack />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

@@ -1,13 +1,15 @@
-import React from "react";
-import dryingRackData from "./SliderData";
-import Slider from "../../../reusableСomponents/ImageSlider/Slider";
+import React from 'react'
+import Slider from '../../../reusableСomponents/ImageSlider/Slider'
+import dryingRackData from "./DryingRack_Data"
+
 
 const DryingRack = () => {
   return (
-    <>
-       <Slider sliderData={dryingRackData} title="Modern Curtains" />
-    </>
-  );
-};
+    <section className='dryer-section'>
+      <h1 className='dryer-section__title'>dfghjdfghkjdhgjdhgjdhj</h1>
+      <Slider sliderData={dryingRackData} />
+    </section>
+  )
+}
 
-export default DryingRack;
+export default DryingRack

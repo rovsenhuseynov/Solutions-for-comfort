@@ -236,6 +236,12 @@ label span {
 }
 
 
-// .container {
-//   margin-top: 0 !important;
-// }
+input[type="radio"] {
+  display: none; /* Полностью скрывает радио-кнопки */
+}
+
+
+.prev, .next, .dots {
+  position: absolute;
+  z-index: 10; /* Делаем эти элементы поверх слайдов */
+}
