@@ -4,6 +4,9 @@
   text-align: center;
   justify-content: center;
   width: 100%;
+  @media (width <= 768px) {
+    padding-top: 0;
+  }
 }
 
 .dryer-section__title {
