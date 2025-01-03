@@ -1,7 +1,8 @@
 import React from "react";
 import "./ExpandablePanel.scss";
 import { NavLink } from "react-router-dom";
-import ExpandablePanelSlider from "../../../reusableСomponents/ExpandablePanelSlider/ExpandablePanelSlider";
+import ExpandablePanelSlider from "../../../reusableСomponents/PanelSlider/ExpandablePanelSlider";
+
 
 const ExpandablePanel = () => {
   return (

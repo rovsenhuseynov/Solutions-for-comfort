@@ -105,9 +105,9 @@
 
 
 
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import "./Slider.scss";
+// import React, { useState } from "react";
+// import { useNavigate } from "react-router-dom";
+// import "./Slider.scss";
 
 // const Slider = ({ sliderData, title, isClickable }) => {
 //   const [activeSlide, setActiveSlide] = useState(1);
@@ -212,7 +212,9 @@ import "./Slider.scss";
 
 
 
-
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./Slider.scss";
 
 
 const Slider = ({ sliderData, title, isClickable, contextClass = "" }) => {

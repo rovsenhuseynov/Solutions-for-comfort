@@ -16,6 +16,7 @@ const sliderData = [
     alt: "slide 2",
     id: "two",
     context: "Контекст для слайда 2",
+    url: "/wood-calendar",
   },
 
   {

@@ -4,8 +4,6 @@ import Screws_1 from "../../assets/img/products_img/Screws_1.webp";
 import Screws_2 from "../../assets/img/products_img/Screws_2.webp";
 import Screws_3 from "../../assets/img/products_img/Screws_3.webp";
 import Screws_4 from "../../assets/img/products_img/Screws_4.webp";
-import WoodCalendar from "./WoodCalendar/WoodCalendar";
-import WoodPress from "./WoodPress/WoodPress";
 import Slider from "../../reusableСomponents/ImageSlider/Slider";
 import dryingRackData from "./SliderData";
 
@@ -28,8 +26,6 @@ const Products = () => {
 
       <section className="product__list container">
         <Slider sliderData={dryingRackData} isClickable={true} />
-        <WoodCalendar />
-        <WoodPress />
       </section>
     </div>
   );
