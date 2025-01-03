@@ -6,12 +6,11 @@
   display: none;
 }
 
-.expandable-slider__title{
+.expandable-slider__title {
   font-size: calc(2vw + 1rem);
   font-weight: 600;
   text-shadow: 2px 2px 4px rgb(90, 90, 90);
   line-height: 1;
-  
 }
 
 .containers {
@@ -21,7 +20,7 @@
   height: 100%;
   padding-bottom: 55%;
   user-select: none;
-  background-color: #000000;
+  background-color: hsl(0, 0%, 0%);
   border: solid 1px #616161;
   border-radius: 10px;
   @media (orientation: portrait) and (width <= 768px) {
@@ -131,11 +130,11 @@ label span {
   top: -5px;
   width: calc(1vh + 0.5rem);
   height: calc(1vh + 0.5rem);
-  margin: 0 calc(2vw - 0.1rem);
+  margin: 0 calc(1.2vw - 0.2rem);
   position: relative;
   border-radius: 100%;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   transition: 0.4s;
   @media screen and (width <= 768px) {
     display: none;
@@ -144,7 +143,7 @@ label span {
 
 #nav_slide .dots:hover {
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9) !important;
   transition: 0.25s;
 }
 
@@ -160,11 +159,16 @@ label span {
     top: 1%;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 8px;
     border-radius: 5px;
     text-align: center;
+    text-shadow: 0 0 10px black;
+    letter-spacing: 0.2vw;
+    max-width: 90%;
+    // text-wrap: wrap;
+    text-transform: uppercase ;
   }
 }
 
@@ -196,6 +200,7 @@ label span {
       opacity: 1;
     }
   }
+
   /* Применение данной анимации только для нужных элементов внутри .containers */
   #i1:checked ~ #one,
   #i2:checked ~ #two,
@@ -224,10 +229,6 @@ label span {
   .next {
     width: 15%;
   }
-  #nav_slide .dots {
-    width: 12px;
-    height: 12px;
-  }
 }
 @media screen and (min-width: 970px) {
   .me {
@@ -235,13 +236,10 @@ label span {
   }
 }
 
-
 input[type="radio"] {
   display: none; /* Полностью скрывает радио-кнопки */
 }
 
-
-.prev, .next, .dots {
-  position: absolute;
-  z-index: 10; /* Делаем эти элементы поверх слайдов */
+.slide_context.clickable {
+  cursor: pointer;
 }

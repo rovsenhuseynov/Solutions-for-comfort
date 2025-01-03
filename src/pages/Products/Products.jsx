@@ -27,7 +27,7 @@ const Products = () => {
       </section>
 
       <section className="product__list container">
-        <Slider sliderData={dryingRackData}  />
+        <Slider sliderData={dryingRackData} isClickable={true} />
         <WoodCalendar />
         <WoodPress />
       </section>
