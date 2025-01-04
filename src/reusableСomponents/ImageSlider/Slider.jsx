@@ -102,9 +102,6 @@
 
 // export default Slider;
 
-
-
-
 // import React, { useState } from "react";
 // import { useNavigate } from "react-router-dom";
 // import "./Slider.scss";
@@ -212,110 +209,6 @@
 
 
 
-// import React, { useState } from "react";
-// import { useNavigate } from "react-router-dom";
-// import "./Slider.scss";
-
-
-// const Slider = ({ sliderData, title, isClickable, contextClass = "" }) => {
-//   const [activeSlide, setActiveSlide] = useState(1);
-//   const navigate = useNavigate();
-
-//   const handleNext = (current) => {
-//     setActiveSlide(current === sliderData.length ? 1 : current + 1);
-//   };
-
-//   const handlePrev = (current) => {
-//     setActiveSlide(current === 1 ? sliderData.length : current - 1);
-//   };
-
-//   const handleDotClick = (index) => {
-//     setActiveSlide(index + 1);
-//   };
-
-//   const handleContextClick = (url) => {
-//     if (url) {
-//       navigate(url);
-//     }
-//   };
-
-//   return (
-//     <>
-//       <p className="expandable-slider__title">{title}</p>
-//       <div className="containers">
-//         {sliderData.map((slide, index) => (
-//           <input
-//             key={`input-${index}`}
-//             type="radio"
-//             id={`i${index + 1}`}
-//             name="images"
-//             checked={activeSlide === index + 1}
-//             readOnly
-//             style={{ zIndex: -1 }}
-//           />
-//         ))}
-
-//         {sliderData.map((slide, index) => (
-//           <div
-//             className={`slide_img ${activeSlide === index + 1 ? "active" : ""}`}
-//             id={slide.id}
-//             key={slide.id}
-//             style={{
-//               zIndex: activeSlide === index + 1 ? 10 : 0,
-//             }}
-//           >
-//             <img src={slide.src} alt={slide.alt} />
-
-//             <div
-//               className={`slide_context ${contextClass} ${isClickable ? "clickable" : ""}`}
-//               onClick={() => handleContextClick(slide.url)}
-//             >
-//               {activeSlide === index + 1 && slide.context}
-//             </div>
-
-//             <label
-//               htmlFor={`i${activeSlide}`}
-//               className="prev"
-//               onClick={() => handlePrev(activeSlide)}
-//               style={{ zIndex: 11 }}
-//             >
-//               <span>&#x2039;</span>
-//             </label>
-//             <label
-//               htmlFor={`i${activeSlide}`}
-//               className="next"
-//               onClick={() => handleNext(activeSlide)}
-//               style={{ zIndex: 11 }}
-//             >
-//               <span>&#x203a;</span>
-//             </label>
-//           </div>
-//         ))}
-
-//         <div id="nav_slide">
-//           {sliderData.map((_, index) => (
-//             <label
-//               key={`dot-${index}`}
-//               htmlFor={`i${index + 1}`}
-//               className="dots"
-//               id={`dot${index + 1}`}
-//               onClick={() => handleDotClick(index)}
-//               style={{
-//                 backgroundColor: activeSlide === index + 1 ? "#fff" : "#000",
-//                 zIndex: 12,
-//               }}
-//             ></label>
-//           ))}
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Slider;
-
-
-
 
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -365,21 +258,20 @@ const Slider = ({ sliderData, title, isClickable, contextClass = "" }) => {
             id={slide.id}
             key={slide.id}
             style={{
-              // Применение плавного перехода
-              opacity: activeSlide === index + 1 ? 1 : 0,
-              transition: "opacity 1s ease",
-              // Добавление скрытия слайдов для тех, которые не активны
-              visibility: activeSlide === index + 1 ? "visible" : "hidden",
               zIndex: activeSlide === index + 1 ? 10 : 0,
             }}
           >
             <img src={slide.src} alt={slide.alt} />
+
             <div
-              className={`slide_context ${contextClass} ${isClickable ? "clickable" : ""}`}
+              className={`slide_context ${contextClass} ${
+                isClickable ? "clickable" : ""
+              }`}
               onClick={() => handleContextClick(slide.url)}
             >
               {activeSlide === index + 1 && slide.context}
             </div>
+
             <label
               htmlFor={`i${activeSlide}`}
               className="prev"
@@ -420,3 +312,6 @@ const Slider = ({ sliderData, title, isClickable, contextClass = "" }) => {
 };
 
 export default Slider;
+
+
+
