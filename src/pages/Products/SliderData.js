@@ -1,6 +1,6 @@
 import ProductsRackImg1 from "../../assets/img/drying_Rack_img/drying_Rack_img_1.webp";
-
-
+import ProductsRackImg2 from "../../assets/img/wood_Calendar/WoodCalendar_1.webp";
+import ProductsRackImg3 from "../../assets/img/Rocket-stove/rocket-stove_1.webp";
 
 const sliderData = [
   {
@@ -12,18 +12,18 @@ const sliderData = [
   },
 
   {
-    src: "https://preview.ibb.co/e5OShF/cropped_800_480_111290.jpg",
+    src: ProductsRackImg2,
     alt: "slide 2",
     id: "two",
-    context: "Контекст для слайда 2",
+    context: "Dekorativ taxta təqvim",
     url: "/wood-calendar",
   },
 
   {
-    src: "http://wallpaperswide.com/download/up_house-wallpaper-1280x800.jpg",
+    src: ProductsRackImg3,
     alt: "slide 3",
     id: "three",
-    context: "Контекст для слайда 3",
+    context: "Turbo soba “Raketa”",
   },
 
   {

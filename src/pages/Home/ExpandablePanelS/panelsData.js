@@ -1,9 +1,9 @@
 import ImageSliderPanel_1 from "../../../assets/img/main_banner_bg/expandable_panels_1.webp";
 import ImageSliderPanel_2 from "../../../assets/img/main_banner_bg/expandable_panels_2.webp";
-import ImageSliderPanel_3 from "../../../assets/img/main_banner_bg/metal_soba_3.webp";
+import ImageSliderPanel_3 from "../../../assets/img/Rocket-stove/metal_soba_3.webp";
 import ImageSliderPanel_4 from "../../../assets/img/main_banner_bg/expandable_panels_4.webp";
 import ImageSliderPanel_5 from "../../../assets/img/main_banner_bg/expandable_panels_5.webp";
-import ImageSliderPanel_6 from "../../../assets/img/main_banner_bg/Wooden_press_6.webp";
+import ImageSliderPanel_6 from "../../../assets/img/Wooden_press/Wooden_press.webp";
 import ImageSliderPanel_7 from "../../../assets/img/wood_Calendar/wood_Calendar.webp";
 
 const panelsData = [
