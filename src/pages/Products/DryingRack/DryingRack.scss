@@ -8,22 +8,7 @@
   height: auto;
   @media (width <= 768px) {
 
-    width: 98%;
+    width: 100%;
   }
 }
 
-.dryer-section__title {
-  padding-block: calc(2vh + 1rem);
-  font-size: calc(1vw + 1rem);
-  text-wrap: balance;
-  font-weight: 500;
-  text-shadow: 0 0 4px black;
-  width: 80%;
-  display: grid;
-  place-self: center;
-}
-
-.drying-rack-context{
-  text-wrap: wrap;
-  width: 95%;
-}
