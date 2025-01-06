@@ -12,6 +12,10 @@ import Journal from "./pages/Journal/Journal";
 import Provisions from "./pages/Provisions/Provisions";
 import DryingRack from "./pages/Products/DryingRack/DryingRack";
 import WoodCalendar from "./pages/Products/WoodCalendar/WoodCalendar";
+import RocketStove from "./pages/Products/RocketStove/RocketStove";
+import WoodenPress from "./pages/Products/WoodenPress/WoodenPress";
+
+
 
 const App = () => {
   return (
@@ -27,6 +31,9 @@ const App = () => {
           <Route path="/search" element={<SearchPage />} />
           <Route path="/drying-rack" element={<DryingRack />} />
           <Route path="/wood-calendar" element={<WoodCalendar />} />
+          <Route path="/rocket-stove" element={<RocketStove />} />
+          <Route path="/wooden-press" element={<WoodenPress />} />
+
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

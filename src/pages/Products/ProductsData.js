@@ -1,8 +1,9 @@
 import ProductsRackImg1 from "../../assets/img/drying_Rack_img/drying_Rack_img_1.webp";
 import ProductsRackImg2 from "../../assets/img/wood_Calendar/WoodCalendar_1.webp";
 import ProductsRackImg3 from "../../assets/img/Rocket-stove/rocket-stove_1.webp";
+import Wooden_pressImg4 from "../../assets/img/Wooden_press/wooden_press_1.webp";
 
-const sliderData = [
+const ProductsData = [
   {
     src: ProductsRackImg1,
     alt: "slide 1",
@@ -23,14 +24,16 @@ const sliderData = [
     src: ProductsRackImg3,
     alt: "slide 3",
     id: "three",
-    context: "Turbo soba “Raketa”",
+    context: "Turbo soba - Raketa",
+    url: "/rocket-stove",
   },
 
   {
-    src: "http://wallpaperswide.com/download/big_hero_6_baymax-wallpaper-1152x720.jpg",
+    src: Wooden_pressImg4,
     alt: "slide 4",
     id: "four",
     context: "Контекст для слайда 4",
+    url: "/wooden-press",
   },
 
   {
@@ -41,4 +44,4 @@ const sliderData = [
   },
 ];
 
-export default sliderData;
+export default ProductsData;

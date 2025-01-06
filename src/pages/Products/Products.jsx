@@ -5,7 +5,8 @@ import Screws_2 from "../../assets/img/products_img/Screws_2.webp";
 import Screws_3 from "../../assets/img/products_img/Screws_3.webp";
 import Screws_4 from "../../assets/img/products_img/Screws_4.webp";
 import Slider from "../../reusableСomponents/ImageSlider/Slider";
-import dryingRackData from "./SliderData";
+import dryingRackData from "./ProductsData";
+
 
 const Products = () => {
   return (

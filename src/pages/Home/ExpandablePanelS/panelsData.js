@@ -3,7 +3,7 @@ import ImageSliderPanel_2 from "../../../assets/img/main_banner_bg/expandable_pa
 import ImageSliderPanel_3 from "../../../assets/img/Rocket-stove/metal_soba_3.webp";
 import ImageSliderPanel_4 from "../../../assets/img/main_banner_bg/expandable_panels_4.webp";
 import ImageSliderPanel_5 from "../../../assets/img/main_banner_bg/expandable_panels_5.webp";
-import ImageSliderPanel_6 from "../../../assets/img/Wooden_press/Wooden_press.webp";
+import ImageSliderPanel_6 from "../../../assets/img/Wooden_press/wooden_press_2.webp";
 import ImageSliderPanel_7 from "../../../assets/img/wood_Calendar/wood_Calendar.webp";
 
 const panelsData = [
