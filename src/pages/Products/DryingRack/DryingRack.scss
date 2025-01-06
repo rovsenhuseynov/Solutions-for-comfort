@@ -1,13 +1,11 @@
 .dryer-section {
-  padding-top: calc(2vw + 1rem);
-  padding-bottom: calc(3vw + 1rem);
+  padding-block: calc(2.5vw + 1rem);
   display: grid;
   text-align: center;
   place-self: center;
   width: 90%;
   height: auto;
   @media (width <= 768px) {
-
     width: 100%;
   }
 }

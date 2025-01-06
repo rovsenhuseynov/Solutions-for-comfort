@@ -154,6 +154,13 @@ label span {
   transition: 0.25s;
 }
 
+#nav_slide .dots.active {
+  background-color: rgba(221, 221, 221, 0.9); // Цвет для активного состояния
+  transition: 0.25s;
+}
+
+
+
 .slide_img {
   z-index: -1;
   text-wrap: nowrap;
@@ -195,7 +202,7 @@ label span {
 #i3:checked ~ #nav_slide #dot3,
 #i4:checked ~ #nav_slide #dot4,
 #i5:checked ~ #nav_slide #dot5 {
-  // background-color: rgba(255, 255, 255, 0.9);
+
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -254,35 +261,3 @@ input[type="radio"] {
   cursor: pointer;
 }
 
-//---------------------------------------------
-
-// .prev,
-// .next {
-//   width: 10%;
-//   height: inherit;
-//   position: absolute;
-//   top: 0;
-//   z-index: 99;
-//   transition: 0.45s;
-//   cursor: pointer;
-//   text-align: center;
-//   /* Центрирование и увеличение значков */
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   font-size: calc(14vw + 3rem); /* Увеличение размера значков */
-//   color: rgba(244, 244, 244, 0.9); /* Исходный цвет стрелок */
-// }
-
-// .prev:hover,
-// .next:hover {
-//   color: $lightНellow;
-// }
-
-// .next {
-//   right: 0;
-// }
-
-// .prev {
-//   left: 0;
-// }
