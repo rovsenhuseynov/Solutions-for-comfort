@@ -93,10 +93,10 @@ const HeaderNav = () => {
         </button>
       </div>
       <div className="header__search">
-        
+
         {/* <HeaderSearch /> */}
 
-        <NavLink
+        {/* <NavLink
           to="/search"
           className="header__nav-item"
           onClick={() => setOpen(false)}
@@ -110,7 +110,7 @@ const HeaderNav = () => {
             alt="search_icon"
             className="nav_search_img"
           />
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
   );
