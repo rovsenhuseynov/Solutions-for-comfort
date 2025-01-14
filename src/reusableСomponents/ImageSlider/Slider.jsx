@@ -68,9 +68,6 @@
 //               key={`dot-${index}`}
 //               className={`dots ${activeSlide === index + 1 ? "active" : ""}`}
 //               onClick={() => handleDotClick(index)}
-//               style={{
-//                 backgroundColor: activeSlide === index + 1 ? "#fff" : "#000",
-//               }}
 //             ></button>
 //           ))}
 //         </div>
@@ -80,8 +77,6 @@
 // };
 
 // export default Slider;
-
-
 
 
 
@@ -110,7 +105,7 @@ const Slider = ({ sliderData, title, isClickable, contextClass = "" }) => {
     setActiveSlide(index + 1);
   };
 
-  const handleContextClick = (url) => {
+  const handleSlideClick = (url) => {
     if (url) navigate(url);
   };
 
@@ -127,6 +122,7 @@ const Slider = ({ sliderData, title, isClickable, contextClass = "" }) => {
               opacity: activeSlide === index + 1 ? 1 : 0,
               transition: "opacity 0.5s ease",
             }}
+            onClick={() => handleSlideClick(slide.url)} // Добавлен обработчик клика
           >
             <img src={slide.src} alt={slide.alt} />
 
@@ -135,7 +131,6 @@ const Slider = ({ sliderData, title, isClickable, contextClass = "" }) => {
                 className={`slide_context ${contextClass} ${
                   isClickable ? "clickable" : ""
                 }`}
-                onClick={() => handleContextClick(slide.url)}
               >
                 {slide.context}
               </div>

@@ -4,13 +4,9 @@ import "./HeaderNav.scss";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import Logo from "../../../reusableСomponents/Logo/Logo";
-import nav_search_img from "../../../assets/img/svg/search/search_icon.svg";
-import nav_search_active_img from "../../../assets/img/svg/search/activeSearchImg.svg";
-import HeaderSearch from "./HeaderSearch/HeaderSearch";
 import NawDropDownMenu from "./DropDownMenu/NawDropDownMenu";
 
 const HeaderNav = () => {
-  const location = useLocation();
   const [isOpen, setOpen] = React.useState(false);
   const [scrollDirection, setScrollDirection] = React.useState("up");
   const [prevScrollPos, setPrevScrollPos] = React.useState(window.scrollY);

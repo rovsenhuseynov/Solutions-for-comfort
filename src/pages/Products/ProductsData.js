@@ -9,7 +9,6 @@ const ProductsData = [
     alt: "slide 1",
     id: "one",
     context: "Paltarqurutma asılqanı",
-    dynamicText: "УНЕГУНЕГУНЕГУВЗЕНЩРГЛОВЗАРПОЩЗУВААРПВЗР",
     url: "/drying-rack",
   },
 
@@ -18,7 +17,6 @@ const ProductsData = [
     alt: "slide 2",
     id: "two",
     context: "Dekorativ taxta təqvim",
-    dynamicText: "УЗАРПО------------ЩЗУВААРПВЗР",
     url: "/wood-calendar",
   },
 
@@ -28,7 +26,6 @@ const ProductsData = [
     id: "three",
     context: "Turbo soba - Raketa",
     url: "/rocket-stove",
-    dynamicText: "999999999999УЗАРПО------------ЩЗУВААРПВЗР9999999",
   },
 
   {
@@ -37,7 +34,6 @@ const ProductsData = [
     id: "four",
     context: "Контекст для слайда 4",
     url: "/wooden-press",
-    dynamicText: "ББББББББББББББББББО------------ЩЗУ0000000000000009",
   },
 
   {
