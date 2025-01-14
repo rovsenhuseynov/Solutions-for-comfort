@@ -57,7 +57,6 @@ const HeaderNav = () => {
       <div className="header-nav__content">
         <Logo />
         <nav className={`header__nav ${isOpen ? "active" : ""}`}>
-          
           <div className="header__nav-list">
             {navLinks.map(({ to, text }) =>
               to === "/services" ? (
@@ -83,7 +82,6 @@ const HeaderNav = () => {
               )
             )}
           </div>
-          
         </nav>
         <button
           className={`header__menu-btn ${isOpen ? "active" : ""}`}
@@ -92,31 +90,8 @@ const HeaderNav = () => {
           {isOpen ? <CloseIcon /> : <MenuIcon />}
         </button>
       </div>
-      <div className="header__search">
-
-        {/* <HeaderSearch /> */}
-
-        {/* <NavLink
-          to="/search"
-          className="header__nav-item"
-          onClick={() => setOpen(false)}
-        >
-          <img
-            src={
-              location.pathname === "/search"
-                ? nav_search_active_img
-                : nav_search_img
-            }
-            alt="search_icon"
-            className="nav_search_img"
-          />
-        </NavLink> */}
-      </div>
     </div>
   );
 };
 
 export default HeaderNav;
-
-
-
