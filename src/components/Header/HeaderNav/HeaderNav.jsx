@@ -93,7 +93,9 @@ const HeaderNav = () => {
         </button>
       </div>
       <div className="header__search">
-        <HeaderSearch />
+        
+        {/* <HeaderSearch /> */}
+
         <NavLink
           to="/search"
           className="header__nav-item"
