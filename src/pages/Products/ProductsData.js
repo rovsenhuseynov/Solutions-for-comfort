@@ -36,12 +36,6 @@ const ProductsData = [
     url: "/wooden-press",
   },
 
-  {
-    src: "https://cdn.pixabay.com/photo/2022/09/27/19/45/ai-generated-7483579_1280.jpg",
-    alt: "slide 5",
-    id: "five",
-    context: "Контекст для слайда 5",
-  },
 ];
 
 export default ProductsData;

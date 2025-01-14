@@ -164,6 +164,7 @@ label span {
 .slide_img {
   z-index: -1;
   text-wrap: nowrap;
+  cursor: pointer;
   img {
     border-radius: 10px;
   }
