@@ -18,22 +18,22 @@ const DryingRack = () => {
       </div>
 
       <div className="dryer-section__info-block">
-        <video  className="info-block__video" width="400" controls>
-            <source src={myVideo} />
+        <video className="info-block__video" width="400" controls>
+          <source src={myVideo} />
         </video>
 
         <div className="info-block__text">
           <div className="info-block__subtitled">
-            Ищете компактное решение для сушки белья?
+            Paltar qurutmaq üçün kompakt bir həll axtarırsınız?
           </div>
           <h6 className="info-text">
-            Складной настенный стенд – идеальный выбор! Простой в установке и
-            использовании, он раскладывается за секунды и экономит ваше
-            пространство. Особенно актуален для балконов современных городских
-            многоэтажных зданий, где важно каждое свободное место. Прочная
-            конструкция выдерживает даже тяжёлые вещи, а в сложенном виде стенд
-            практически незаметен. Больше места для жизни – меньше хлопот с
-            сушкой!
+            Bu halda qatlanan paltarqurutma stendi sizin üçün ideal seçimdir!
+            Quraşdırılması və istifadəsi çox sadədir, saniyələr içində açılır və
+            sahənizə qənaət edir. Xüsusilə müasir şəhərlərin çoxmərtəbəli
+            binalarındakı balkonlar üçün çox əlverişlidir, çünki hər bir boş yer
+            dəyərlidir. Möhkəm konstruksiya hətta ağır əşyaları da asanlıqla
+            saxlayır, qatlanmış halda isə stend demək olar ki, görünməz olur.
+            Daha çox yaşayış sahəsi – daha az qurutma narahatlığı!
           </h6>
         </div>
       </div>
