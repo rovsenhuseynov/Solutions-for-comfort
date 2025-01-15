@@ -8,7 +8,7 @@ const NawDropDownMenu = ({ onClose }) => {
     <ul className="dropdown">
       <li className="dropdown__item ">
         <NavLink to="/tulle" className="dropdown__item-link" onClick={onClose}>
-          TÜLLƏR
+        element-1
         </NavLink>
       </li>
 
@@ -18,7 +18,7 @@ const NawDropDownMenu = ({ onClose }) => {
           className="dropdown__item-link"
           onClick={onClose}
         >
-          QALIN PƏRDƏLƏR
+          element-2
         </NavLink>
       </li>
 
@@ -28,7 +28,7 @@ const NawDropDownMenu = ({ onClose }) => {
           className="dropdown__item-link"
           onClick={onClose}
         >
-          GÜNƏŞLİK
+          element-3
         </NavLink>
       </li>
 
@@ -38,7 +38,7 @@ const NawDropDownMenu = ({ onClose }) => {
           className="dropdown__item-link"
           onClick={onClose}
         >
-          GÜNKEÇİRMƏZ
+          element-4
         </NavLink>
       </li>
 
@@ -48,7 +48,7 @@ const NawDropDownMenu = ({ onClose }) => {
           className="dropdown__item-link"
           onClick={onClose}
         >
-          BİLGİLƏR
+          element-5
         </NavLink>
       </li>
       
