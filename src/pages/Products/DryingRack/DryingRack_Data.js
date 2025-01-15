@@ -49,7 +49,7 @@ const sliderData = [
     src: dryingRackImg7,
     alt: "slide 7",
     id: "seven",
-    context: "Qatlanan paltar quruducu,gücləndirilmiş, paclanmaz metaldan.",
+    context: "Qatlanan paltar quruducu,gücləndirilmiş, paslanmaz metaldan.",
   },
 ];
 
