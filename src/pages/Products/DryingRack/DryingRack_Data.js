@@ -11,45 +11,45 @@ const sliderData = [
     src: dryingRackImg1,
     alt: "slide 1",
     id: "one",
-    context: "Divar tipi qatlanan paltar quruducu.",
+    context: "Qatlanan paltar quruducu, gücləndirilmiş, qara qəngi.",
   },
   {
     src: dryingRackImg2,
     alt: "slide 2",
     id: "two",
-    context: "Divar tipi qatlanan paltar quruducu.",
+    context: "Qatlanan paltar quruducu,gücləndirilmiş, ağ qəngi.",
   },
   {
     src: dryingRackImg3,
     alt: "slide 3",
     id: "three",
-    context: "Divar tipi qatlanan paltar quruducu.",
+    context: "Qatlanan paltar quruducu, ağ qəngi.",
   },
   {
     src: dryingRackImg4,
     alt: "slide 4",
     id: "four",
-    context: "Divar tipi qatlanan paltar quruducu. 4",
+    context: "Qatlanan paltar quruducu, gücləndirilmiş, qara qəngi.",
   },
 
   {
     src: dryingRackImg5,
     alt: "slide 5",
     id: "five",
-    context: "Divar tipi qatlanan paltar quruducu. 5",
+    context: "Qatlanan paltar quruducu, gücləndirilmiş, qara qəngi.",
   },
 
   {
     src: dryingRackImg6,
     alt: "slide 6",
     id: "six",
-    context: "Divar tipi qatlanan paltar quruducu. 6",
+    context: "Qatlanan paltar quruducu,gücləndirilmiş, ağ qəngi.",
   },
   {
     src: dryingRackImg7,
     alt: "slide 7",
     id: "seven",
-    context: "Divar tipi qatlanan paltar quruducu. 7",
+    context: "Qatlanan paltar quruducu,gücləndirilmiş, paclanmaz metaldan.",
   },
 ];
 

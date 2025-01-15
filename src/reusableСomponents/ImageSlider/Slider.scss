@@ -28,7 +28,6 @@
   border-radius: 10px;
   overflow: hidden;
 
-
   @media (orientation: portrait) and (width <= 768px) {
     width: 99%;
   }
@@ -159,8 +158,6 @@ label span {
   transition: 0.25s;
 }
 
-
-
 .slide_img {
   z-index: -1;
   text-wrap: nowrap;
@@ -174,18 +171,19 @@ label span {
     top: 1%;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     color: #fff;
     padding-inline: 2vw;
     padding-block: 1vh;
     border-radius: 5px;
     text-align: center;
-    text-shadow: 0 0 10px black;
-    letter-spacing: 0.2vw;
+    text-shadow: 0 0 5px black;
+    letter-spacing: 0.1vw;
     max-width: 100%;
     width: max-content;
-    font-size: calc(1vw + 0.5rem);
+    font-size: calc(0.8vw + 0.4rem);
     text-transform: uppercase;
+    text-wrap: wrap;
   }
 }
 
@@ -203,7 +201,6 @@ label span {
 #i3:checked ~ #nav_slide #dot3,
 #i4:checked ~ #nav_slide #dot4,
 #i5:checked ~ #nav_slide #dot5 {
-
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -261,4 +258,3 @@ input[type="radio"] {
 .slide_context.clickable {
   cursor: pointer;
 }
-
