@@ -5,8 +5,8 @@ import BenchData from "./Bench";
 
 const Bench = () => {
   return (
-    <section className=" container">
-      <Slider sliderData={BenchData} contextClass="bench-section" />
+    <section className="bench-section container">
+      <Slider sliderData={BenchData} contextClass="drying-rack-context" />
     </section>
   );
 };
