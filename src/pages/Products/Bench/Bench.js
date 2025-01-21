@@ -6,7 +6,6 @@ import benchImg5 from "../../../assets/img/bench/bench_Img_5.png";
 import benchImg6 from "../../../assets/img/bench/bench_Img_6.jpg";
 import benchImg7 from "../../../assets/img/bench/bench_Img_7.png";
 
-
 const BenchData = [
   {
     src: benchImg1,
@@ -49,9 +48,9 @@ const BenchData = [
   {
     src: benchImg7,
     alt: "slide 7",
-    id: "six",
+    id: "seven",
     context: "ağ qəngi.",
-  }
+  },
 ];
 
 export default BenchData;
