@@ -5,7 +5,7 @@ import BenchData from "./Bench";
 
 const Bench = () => {
   return (
-    <section className="bench-section container">
+    <section className="bench-section__wrapper ">
       <Slider sliderData={BenchData} contextClass="drying-rack-context" />
     </section>
   );
