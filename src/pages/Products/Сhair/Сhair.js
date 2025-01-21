@@ -1,11 +1,11 @@
-import Gazebo_chair1 from "../../../assets/img/Gazebo_chair/chair_Img_1.png";
-import Gazebo_chair2 from "../../../assets/img/Gazebo_chair/chair_Img_2.png";
-import Gazebo_chair3 from "../../../assets/img/Gazebo_chair/chair_Img_3.png";
-import Gazebo_chair4 from "../../../assets/img/Gazebo_chair/chair_Img_4.png";
-import Gazebo_chair5 from "../../../assets/img/Gazebo_chair/chair_Img_5.png";
-import Gazebo_chair6 from "../../../assets/img/Gazebo_chair/chair_Img_6.png";
-import Gazebo_chair7 from "../../../assets/img/Gazebo_chair/chair_Img_7.png";
-import Gazebo_chair8 from "../../../assets/img/Gazebo_chair/chair_Img_8.png";
+import Gazebo_chair1 from "../../../assets/img/Gazebo_chair/chair_Img_1.webp";
+import Gazebo_chair2 from "../../../assets/img/Gazebo_chair/chair_Img_2.webp";
+import Gazebo_chair3 from "../../../assets/img/Gazebo_chair/chair_Img_3.webp";
+import Gazebo_chair4 from "../../../assets/img/Gazebo_chair/chair_Img_4.webp";
+import Gazebo_chair5 from "../../../assets/img/Gazebo_chair/chair_Img_5.webp";
+import Gazebo_chair6 from "../../../assets/img/Gazebo_chair/chair_Img_6.webp";
+import Gazebo_chair7 from "../../../assets/img/Gazebo_chair/chair_Img_7.webp";
+import Gazebo_chair8 from "../../../assets/img/Gazebo_chair/chair_Img_8.webp";
 
 const chairData = [
   {

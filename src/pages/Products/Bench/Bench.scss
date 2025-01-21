@@ -1,6 +1,7 @@
+@import '../../../assets/mixin.scss';
+
 .bench-section__wrapper {
-  margin-block: 5vw;
-  margin-inline: 1vw;
+  @include section-margins;
 }
 
 

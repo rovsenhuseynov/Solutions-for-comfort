@@ -11,39 +11,39 @@ const RocketStoveData = [
     src: rocketStoveImg1,
     alt: "slide 1",
     id: "one",
-    context: "Divar tipi qatlanan paltar quruducu.",
+    context: "Təmiz havada rahatlıq və qənaət!",
   },
   {
     src: rocketStoveImg2,
     alt: "slide 2",
     id: "two",
-    context: "Divar tipi qatlanan paltar quruducu.",
+    context: "Unikal dizayn yanacağın tam yanmasına imkan verir",
   },
   {
     src: rocketStoveImg3,
     alt: "slide 3",
     id: "three",
-    context: "Divar tipi qatlanan paltar quruducu.",
+    context: "Kompakt ölçüsünə görə daşımaq asandır.",
   },
   {
     src: rocketStoveImg4,
     alt: "slide 4",
     id: "four",
-    context: "Divar tipi qatlanan paltar quruducu. 4",
+    context: "İstənilən hava şəraitində istifadə edilə bilər",
   },
 
   {
     src: rocketStoveImg5,
     alt: "slide 5",
     id: "five",
-    context: "Divar tipi qatlanan paltar quruducu. 5",
+    context: "Hətta yaş odunları və çör-çöpü də yandırır.",
   },
 
   {
     src: rocketStoveImg6,
     alt: "slide 6",
     id: "six",
-    context: "Divar tipi qatlanan paltar quruducu. 6",
+    context: "Bu, təbiətdə yemək bişirmək üçün optimal bir həll yoludur.",
   },
 ];
 

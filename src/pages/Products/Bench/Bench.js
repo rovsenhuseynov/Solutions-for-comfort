@@ -1,10 +1,10 @@
-import benchImg1 from "../../../assets/img/bench/bench_Img_1.png";
-import benchImg2 from "../../../assets/img/bench/bench_Img_2.png";
-import benchImg3 from "../../../assets/img/bench/bench_Img_3.png";
-import benchImg4 from "../../../assets/img/bench/bench_Img_4.png";
-import benchImg5 from "../../../assets/img/bench/bench_Img_5.png";
-import benchImg6 from "../../../assets/img/bench/bench_Img_6.jpg";
-import benchImg7 from "../../../assets/img/bench/bench_Img_7.png";
+import benchImg1 from "../../../assets/img/bench/bench_Img_1.webp";
+import benchImg2 from "../../../assets/img/bench/bench_Img_2.webp";
+import benchImg3 from "../../../assets/img/bench/bench_Img_3.webp";
+import benchImg4 from "../../../assets/img/bench/bench_Img_4.webp";
+import benchImg5 from "../../../assets/img/bench/bench_Img_5.webp";
+import benchImg6 from "../../../assets/img/bench/bench_Img_6.webp";
+import benchImg7 from "../../../assets/img/bench/bench_Img_7.webp";
 
 const BenchData = [
   {

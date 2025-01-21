@@ -2,8 +2,8 @@ import Drying_rack from "../../assets/img/drying_Rack_img/drying_Rack_img_1.webp
 import WoodCalendar from "../../assets/img/wood_Calendar/WoodCalendar_1.webp";
 import Rocket_stove from "../../assets/img/Rocket-stove/rocket-stove_1.webp";
 import Wooden_pressImg4 from "../../assets/img/Wooden_press/wooden_press_1.webp";
-import bench_Img from "../../assets/img/bench/bench_Img.png";
-import Gazebo_chair_Img from "../../assets/img/Gazebo_chair/chair_Img_1.png";
+import bench_Img from "../../assets/img/bench/bench_Img.webp";
+import Gazebo_chair_Img from "../../assets/img/Gazebo_chair/chair_Img_1.webp";
 
 
 const ProductsData = [

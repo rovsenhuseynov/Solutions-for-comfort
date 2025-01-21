@@ -1,4 +1,5 @@
+@import '../../../assets/mixin.scss';
+
 .woodenPress-wrapper{
-    margin-block: 5vw;
-    margin-inline: 1vw;
+    @include section-margins;
 }
