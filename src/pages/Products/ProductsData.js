@@ -3,6 +3,7 @@ import WoodCalendar from "../../assets/img/wood_Calendar/WoodCalendar_1.webp";
 import Rocket_stove from "../../assets/img/Rocket-stove/rocket-stove_1.webp";
 import Wooden_pressImg4 from "../../assets/img/Wooden_press/wooden_press_1.webp";
 import bench_Img from "../../assets/img/bench/bench_Img.png";
+import Gazebo_chair_Img from "../../assets/img/Gazebo_chair/chair_Img_1.png";
 
 
 const ProductsData = [
@@ -40,9 +41,16 @@ const ProductsData = [
   {
     src: bench_Img,
     alt: "slide 4",
-    id: "four",
+    id: "five",
     context: "skamya",
     url: "/bench",
+  },
+  {
+    src: Gazebo_chair_Img,
+    alt: "slide 5",
+    id: "six",
+    context: "Bisetka kreslosu",
+    url: "/gazeboChair",
   },
 
 ];

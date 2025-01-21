@@ -15,6 +15,7 @@ import WoodCalendar from "./pages/Products/WoodCalendar/WoodCalendar";
 import RocketStove from "./pages/Products/RocketStove/RocketStove";
 import WoodenPress from "./pages/Products/WoodenPress/WoodenPress";
 import Bench from "./pages/Products/Bench/Bench.jsx";
+import GazeboChair from "./pages/Products/Сhair/GazeboChair.jsx";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/wood-calendar" element={<WoodCalendar />} />
           <Route path="/rocket-stove" element={<RocketStove />} />
           <Route path="/bench" element={<Bench />} />
+          <Route path="/gazeboChair" element={<GazeboChair />} />
 
           <Route path="/wooden-press" element={<WoodenPress />} />
           <Route path="*" element={<NotFound />} />
