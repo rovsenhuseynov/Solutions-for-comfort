@@ -29,7 +29,6 @@
   flex-wrap: wrap;
   gap: 2vw;
   padding-block: calc(2.5vw + 1rem);
-
   margin-bottom: 6vh;
 
   @media (orientation: landscape) {
@@ -45,6 +44,8 @@
     @media (orientation: landscape) {
       height: 100vh;
       width: auto;
+      display: flex;
+      justify-content: center;
     }
 
     @media (width = 768px) {
