@@ -2,13 +2,14 @@
 
 .rocket-stove__wrapper {
   @include section-margins;
+
   .rocket-stove__title-block {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: calc(2.5vw + 1rem);
     gap: 2vw;
-   text-align: center;
+    text-align: center;
     .title-block-img {
       width: calc(3vw + 2rem);
       filter: drop-shadow(3px 5px 8px rgba(0, 0, 0, 1));
@@ -21,7 +22,6 @@
   }
 }
 
-
 .rocket-stove__info-block {
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
   gap: 2vw;
   padding-block: calc(2.5vw + 1rem);
   text-align: center;
-margin-bottom: 6vh;
+  margin-bottom: 6vh;
 
   @media (orientation: landscape) {
     flex-wrap: nowrap;

@@ -9,6 +9,7 @@ import myVideo from "../../../assets/video/rocket-stove.mp4";
 const RocketStove = () => {
   return (
     <section className="rocket-stove__wrapper">
+      
       <div className="rocket-stove__title-block">
         <img className="title-block-img" src={Screws_1} alt="Screws" />
         <h2 className="rocket-stove__title">Turbo soba “Raketa”</h2>
