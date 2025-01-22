@@ -40,7 +40,7 @@
     width: 100%;
     margin-bottom: 2vh;
     display: grid;
-    place-self: center;
+    place-items: center;
 
     @media (orientation: landscape) {
       height: 100vh;
@@ -51,7 +51,7 @@
       height: 100vh;
       width: auto;
       display: flex;
-      justify-items: center;
+      justify-content: center;
     }
   }
   .info-block__text {
