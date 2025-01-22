@@ -2,6 +2,8 @@
 
 .rocket-stove__wrapper {
   @include section-margins;
+  display: grid;
+  place-content: center;
 
   .rocket-stove__title-block {
     display: flex;
@@ -80,5 +82,3 @@
     }
   }
 }
-
-
