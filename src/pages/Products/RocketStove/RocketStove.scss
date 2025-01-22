@@ -54,6 +54,7 @@
   }
   .info-block__text {
     width: 100%;
+
     @media (orientation: landscape) {
       height: 100vh;
       width: auto;
@@ -64,17 +65,19 @@
 
     .info-block__subtitled {
       font-size: calc(1.5vw + 0.7rem);
-      text-align: top;
+      text-align: center;
       text-wrap: balance;
       margin-block: 3vh;
       @media (orientation: landscape) {
         margin-block: 0;
       }
     }
+
     .info-text {
       font-size: calc(1vw + 0.5rem);
       font-weight: 300;
       text-wrap: balance;
+      margin-inline: 4vw;
     }
   }
 }
