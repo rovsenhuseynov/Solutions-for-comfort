@@ -21,7 +21,7 @@ const RocketStove = () => {
           <source src={myVideo} />
         </video>
 
-        <div className="info-block__text container">
+        <div className="info-block__text ">
           <div className="info-block__subtitled">
             Təbiətdə yemək hazırlamaq üçün ideal seçim.
           </div>
