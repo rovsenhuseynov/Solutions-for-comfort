@@ -8,14 +8,16 @@ import myVideo from "../../../assets/video/woodCalendar.mp4";
 
 const WoodCalendar = () => {
   return (
-    <section className="woodCalendar-wrapper">
+    <section className="woodCalendar-wrapper ">
+
       <div className="woodCalendar__title-block">
-        <img className="title-block-img" src={Screws_1} alt="Screws" />
-        <h2 className="woodCalendar__title">Turbo soba “Raketa”</h2>
-        <img className="title-block-img" src={Screws_2} alt="Screws" />
+        <img className="title-block__img" src={Screws_1} alt="Screws" />
+        <h2 className="title">Turbo soba “Raketa”</h2>
+        <img className="title-block__img" src={Screws_2} alt="Screws" />
       </div>
 
-      <div className="rocket-stove__info-block ">
+
+      <div className="woodCalendar__info-block ">
         <video className="info-block__video" width="400" controls>
           <source src={myVideo} />
         </video>

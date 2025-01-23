@@ -1,25 +1,21 @@
-@import '../../../assets/mixin.scss';
+@import "../../../assets/mixin.scss";
 
-.woodCalendar-wrapper{
-    @include section-margins;
+.woodCalendar-wrapper {
+  @include section-margins;
 }
 
-
-
 .woodCalendar__title-block {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: calc(2.5vw + 1rem);
-    gap: 2vw;
-    text-align: center;
-    .title-block-img {
-      width: calc(3vw + 2rem);
-      filter: drop-shadow(3px 5px 8px rgba(0, 0, 0, 1));
-    }
-    .woodCalendar__title {
-      font-size: calc(2vw + 1rem);
-      font-weight: 300;
-      text-wrap: balance;
-    }
+  @include title-block-style;
+
+  .title-block__img {
+    @include title-block__img-style;
   }
+
+  .title {
+    @include title-style;
+  }
+}
+
+.woodCalendar__info-block {
+  @include info-block-style;
+}

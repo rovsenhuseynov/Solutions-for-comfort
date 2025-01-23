@@ -8,16 +8,18 @@ import "./DryingRack.scss";
 
 const DryingRack = () => {
   return (
-    <section className="dryer-section container">
-      <div className="dryer-section__title-block">
-        <img className="title-block-img" src={Screws_1} alt="Screws" />
-        <h2 className="dryer-section__title">
+    <section className="dryer-section">
+
+      <div className="title-block">
+        <img className="title-block__img" src={Screws_1} alt="Screws" />
+        <h2 className="title">
           Paltarları qurutmaq üçün rahat həll.
         </h2>
-        <img className="title-block-img" src={Screws_2} alt="Screws" />
+        <img className="title-block__img" src={Screws_2} alt="Screws" />
       </div>
 
-      <div className="dryer-section__info-block">
+
+      <div className="info-block">
         <video className="info-block__video" width="400" controls>
           <source src={myVideo} />
         </video>
