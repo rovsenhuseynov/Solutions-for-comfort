@@ -9,7 +9,7 @@ import Header from "../Header/Header";
 const Layout = () => {
   return (
     <div className="layout">
-      <Header />
+      <Header/>
       <main>
         <Outlet />
       </main>
@@ -19,3 +19,4 @@ const Layout = () => {
 };
 
 export default Layout;
+

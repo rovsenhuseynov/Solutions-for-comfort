@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
   .not-Found__link {
     color: rgba(29, 29, 29, 0.6);
     text-decoration: none;
@@ -74,7 +75,7 @@
 
 /* Скрыть Header и Footer только на странице not-Found */
 .not-found-page .header,
-.not-found-page .footer {
+.not-found-page .footer__wrapper {
   display: none;
 }
 
