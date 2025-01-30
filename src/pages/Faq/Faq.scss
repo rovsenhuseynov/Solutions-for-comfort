@@ -1,4 +1,405 @@
-.faq{
-    color: #000;
-    height: 70vh;
+// .faq{
+//     color: #000;
+//     height: 70vh;
+// }
+
+
+
+// .faq {
+//     max-width: 800px;
+//     margin: 0 auto;
+//     padding: 20px;
+  
+//     h1 {
+//       text-align: center;
+//       font-size: 2rem;
+//       margin-bottom: 20px;
+//     }
+  
+//     .faq-accordion {
+//       border-top: 1px solid #ddd;
+//     }
+  
+//     .faq-item {
+//       border-bottom: 1px solid #ddd;
+//       position: relative;
+//     }
+  
+//     .faq-question {
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       padding: 15px;
+//       cursor: pointer;
+//       background-color: #f9f9f9;
+//       transition: background-color 0.3s ease;
+//       width: 100%;
+//       border: none;
+//       outline: none;
+//       text-align: left;
+//       font-size: 1rem;
+//       appearance: none;
+  
+//       &:hover {
+//         background-color: #f0f0f0;
+//       }
+  
+//       &.active {
+//         background-color: #e0e0e0;
+//       }
+  
+//       .faq-toggle {
+//         font-size: 1.5rem;
+//         transition: transform 0.3s ease;
+//       }
+  
+//       &.active .faq-toggle {
+//         transform: rotate(180deg);
+//       }
+//     }
+  
+//     .faq-answer {
+//       max-height: 0;
+//       overflow: hidden;
+//       transition: max-height 0.3s ease, opacity 0.3s ease;
+//       opacity: 0;
+//       background-color: #fff;
+//       padding: 0 15px;
+//       position: relative;
+  
+//       &.active {
+//         max-height: 200px; // Adjust this value based on your content
+//         opacity: 1;
+//       }
+  
+//       p {
+//         margin: 15px 0;
+//       }
+//     }
+//   }
+
+
+
+
+
+// .faq {
+//     max-width: 800px;
+//     margin: 0 auto;
+//     padding: 20px;
+  
+//     h1 {
+//       text-align: center;
+//       font-size: 2rem;
+//       margin-bottom: 20px;
+//     }
+  
+//     .faq-accordion {
+//       border-top: 1px solid #ddd;
+//     }
+  
+//     .faq-item {
+//       position: relative;
+//       overflow: hidden;
+//       border-bottom: 1px solid #ddd;
+//     }
+  
+//     .faq-question {
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       padding: 15px;
+//       cursor: pointer;
+//       background-color: #f9f9f9;
+//       transition: background-color 0.3s ease;
+//       width: 100%;
+//       border: none;
+//       outline: none;
+//       text-align: left;
+//       font-size: 1rem;
+//       appearance: none;
+  
+//       &:hover {
+//         background-color: #f0f0f0;
+//       }
+  
+//       &.active {
+//         background-color: #e0e0e0;
+//       }
+  
+//       .faq-toggle {
+//         font-size: 1.5rem;
+//         transition: transform 0.3s ease;
+//       }
+  
+//       &.active .faq-toggle {
+//         transform: rotate(180deg);
+//       }
+//     }
+  
+//     .faq-answer {
+//       max-height: 0;
+//       overflow: hidden;
+//       transition: max-height 0.5s ease-out;
+//       background-color: #fff;
+//       padding: 15px;
+//       opacity: 0;
+  
+//       p {
+//         margin: 0;
+//       }
+//     }
+  
+//     .faq-answer.active {
+//       max-height: 200px; // Adjust this value based on your content
+//       opacity: 1;
+//     }
+//   }
+
+
+
+
+// .faq {
+//     max-width: 800px;
+//     margin: 0 auto;
+//     padding: 20px;
+  
+//     h1 {
+//       text-align: center;
+//       font-size: 2rem;
+//       margin-bottom: 20px;
+//     }
+  
+//     .faq-accordion {
+//       border-top: 1px solid #ddd;
+//     }
+  
+//     .faq-item {
+//       position: relative;
+//       overflow: hidden;
+//       border-bottom: 1px solid #ddd;
+//     }
+  
+//     .faq-question {
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       padding: 15px;
+//       cursor: pointer;
+//       background-color: #f9f9f9;
+//       transition: background-color 0.3s ease;
+//       width: 100%;
+//       border: none;
+//       outline: none;
+//       text-align: left;
+//       font-size: 1rem;
+//       appearance: none;
+  
+//       &:hover {
+//         background-color: #f0f0f0;
+//       }
+  
+//       &.active {
+//         background-color: #e0e0e0;
+//       }
+  
+//       .faq-toggle {
+//         font-size: 1.5rem;
+//         transition: transform 0.3s ease;
+//       }
+  
+//       &.active .faq-toggle {
+//         transform: rotate(180deg);
+//       }
+//     }
+  
+//     .faq-answer {
+//       overflow: hidden;
+//       transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+//       background-color: #fff;
+//       padding: 15px;
+//       opacity: 0;
+//     }
+  
+//     .faq-answer.active {
+//       opacity: 1;
+//     }
+//   }
+
+
+
+
+
+
+
+
+// .faq {
+//   max-width: 800px;
+//   margin: 0 auto;
+//   padding: 20px;
+
+//   h1 {
+//     text-align: center;
+//     font-size: 2rem;
+//     margin-bottom: 20px;
+//   }
+
+//   .faq-accordion {
+//     border-top: 1px solid #ddd;
+//   }
+
+//   .faq-item {
+//     position: relative;
+//     border-bottom: 1px solid #ddd;
+//     height: calc(8vh + 4rem);
+    
+//   }
+
+//   .faq-question {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 15px;
+//     cursor: pointer;
+//     background-color: #f9f9f9;
+//     transition: background-color 0.3s ease;
+//     width: 100%;
+//     border: none;
+//     outline: none;
+//     text-align: left;
+//     font-size: 1rem;
+//     appearance: none;
+
+
+//     &:hover {
+//       background-color: #f0f0f0;
+//     }
+
+//     &.active {
+//       background-color: #e0e0e0;
+//     }
+
+//     .faq-toggle {
+//       font-size: 1.5rem;
+//       transition: transform 0.3s ease;
+//     }
+
+//     &.active .faq-toggle {
+//       transform: rotate(180deg);
+//     }
+//   }
+
+//   .faq-answer {
+//     overflow: hidden;
+//     transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+//     background-color: #fff;
+//     padding: 15px;
+//     opacity: 0;
+   
+//   }
+
+//   .faq-answer[style*="maxHeight"] {
+//     opacity: 1;
+    
+//   }
+// }
+
+
+
+
+
+
+
+.faq {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .faq-accordion {
+    border-top: 1px solid #ddd;
+  }
+
+  .faq-item {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: calc(8vh + 4rem); /* Зарезервированное место */
+    overflow: hidden; /* Чтобы контент внутри не вылезал за границы */
+  }
+
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 1rem;
+    appearance: none;
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+
+    &.active {
+      background-color: #e0e0e0;
+    }
+
+    .faq-toggle {
+      font-size: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    &.active .faq-toggle {
+      transform: rotate(180deg);
+    }
+  }
+
+  .faq-answer {
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+    background-color: #fff;
+    padding: 15px;
+    opacity: 0;
+    position: relative;
+  }
+
+  .faq-answer-content {
+    height: 100%; /* Чтобы прокрутка работала корректно */
+    overflow-y: auto; /* Прокрутка только для появляющегося контента */
+    padding-right: 17px; /* Для компенсации полосы прокрутки */
+    padding-bottom: 17px; /* Дополнительный отступ снизу для компенсации полосы прокрутки */
+    box-sizing: border-box; /* Убедитесь, что padding не увеличивает высоту */
+  }
+
+  .faq-answer[style*="maxHeight"] {
+    opacity: 1;
+  }
+
+  @media (max-width: 600px) {
+    .faq-item {
+      height: calc(10vh + 4rem); /* Увеличьте высоту для маленьких экранов */
+    }
+
+    .faq-answer-content {
+      height: 100%;
+      overflow-y: auto;
+      padding-right: 17px;
+      padding-bottom: 17px;
+      box-sizing: border-box;
+    }
+  }
+
+  .test-scroll {
+    overflow-y: auto !important;
+    height: 200px !important; /* Установите фиксированную высоту для теста */
+  }
 }
