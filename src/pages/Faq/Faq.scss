@@ -60,10 +60,11 @@
     padding: calc(0.6vw + 0.3rem);
     opacity: 0;
     position: relative;
+    height: auto;
   }
 
   .faq-answer-content {
-    height: 100%; /* Чтобы прокрутка работала корректно */
+    height: auto; /* Чтобы прокрутка работала корректно */
     overflow-y: auto; /* Прокрутка только для появляющегося контента */
     padding-right: 17px; /* Для компенсации полосы прокрутки */
     padding-bottom: 17px; /* Дополнительный отступ снизу для компенсации полосы прокрутки */
@@ -72,6 +73,8 @@
 
   .faq-answer[style*="maxHeight"] {
     opacity: 1;
+    height: auto;
+  
   }
 
   @media (max-width: 600px) {
@@ -80,7 +83,7 @@
     }
 
     .faq-answer-content {
-      height: 100%;
+      height: auto; //--------------------------------------------------------------------
       overflow-y: auto;
       padding-right: 17px;
       padding-bottom: 17px;
@@ -90,6 +93,6 @@
 
   .test-scroll {
     overflow-y: auto !important;
-    height: 100% !important; /* Установите фиксированную высоту для теста */
+    height: 60% !important; /* Установите фиксированную высоту для теста */
   }
 }
